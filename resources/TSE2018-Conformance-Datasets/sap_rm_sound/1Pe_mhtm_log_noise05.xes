@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- This file has been generated with the OpenXES library. It conforms -->
+<!-- to the XML serialization of the XES standard for log storage and -->
+<!-- management. -->
+<!-- XES standard version: 1.0 -->
+<!-- OpenXES library version: 1.0RC7 -->
+<!-- OpenXES is available from http://www.openxes.org/ -->
+<log xes.version="1.0" xes.features="nested-attributes" openxes.version="1.0RC7" xmlns="http://www.xes-standard.org/">
+	<trace>
+		<string key="concept:name" value="trace_0"/>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="calculation of remuneration required"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-01T18:02:35.812+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="determination of relevant methods for remuneration calculation"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-01T19:02:35.812+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="helper transition 0[{XOR}-&gt;{time dependent remuneration is to be calculated}]"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-01T20:02:35.812+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="time dependent remuneration is to be calculated"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-01T21:02:35.812+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="calculation of time dependent remuneration"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-01T22:02:35.812+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="helper transition 1[{XOR}-&gt;{characterized remuneration elements exist}]"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-01T23:02:35.812+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="characterized remuneration elements exist"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-02T00:02:35.812+10:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="trace_7"/>
+		<event>
+			<string key="concept:name" value="time dependent remuneration is to be calculated"/>
+			<boolean key="noise" value="true"/>
+			<string key="lifecycle:transition" value="complete"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="calculation of remuneration required"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-03T19:02:35.812+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="determination of relevant methods for remuneration calculation"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-03T20:02:35.812+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="helper transition 2[{XOR}-&gt;{agreed remuneration is to be calculated}]"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-03T21:02:35.812+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="agreed remuneration is to be calculated"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-03T22:02:35.812+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="calculation of agreed remuneration"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-03T23:02:35.812+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="helper transition 1[{XOR}-&gt;{characterized remuneration elements exist}]"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-04T00:02:35.812+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="characterized remuneration elements exist"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-04T01:02:35.812+10:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="trace_4"/>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="calculation of remuneration required"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-02T22:02:35.812+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="determination of relevant methods for remuneration calculation"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-02T23:02:35.812+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="helper transition 3[{XOR}-&gt;{benefit dependent remuneration is to be calculated}]"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-03T00:02:35.812+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="benefit dependent remuneration is to be calculated"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-03T01:02:35.812+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="calculation of benefit dependent remuneration"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-03T02:02:35.812+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="helper transition 1[{XOR}-&gt;{characterized remuneration elements exist}]"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-03T03:02:35.812+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="characterized remuneration elements exist"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-03T04:02:35.812+10:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="trace_0"/>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="calculation of remuneration required"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-01T18:02:35.812+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="determination of relevant methods for remuneration calculation"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-01T19:02:35.812+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="helper transition 0[{XOR}-&gt;{time dependent remuneration is to be calculated}]"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-01T20:02:35.812+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="time dependent remuneration is to be calculated"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-01T21:02:35.812+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="calculation of time dependent remuneration"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-01T22:02:35.812+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="helper transition 1[{XOR}-&gt;{characterized remuneration elements exist}]"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-01T23:02:35.812+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="characterized remuneration elements exist"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-02T00:02:35.812+10:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="trace_7"/>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="calculation of remuneration required"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-03T19:02:35.812+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="determination of relevant methods for remuneration calculation"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-03T20:02:35.812+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="helper transition 2[{XOR}-&gt;{agreed remuneration is to be calculated}]"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-03T21:02:35.812+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="agreed remuneration is to be calculated"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-03T22:02:35.812+10:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="time dependent remuneration is to be calculated"/>
+			<boolean key="noise" value="true"/>
+			<string key="lifecycle:transition" value="complete"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="calculation of agreed remuneration"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-03T23:02:35.812+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="helper transition 1[{XOR}-&gt;{characterized remuneration elements exist}]"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-04T00:02:35.812+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="characterized remuneration elements exist"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-04T01:02:35.812+10:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="trace_4"/>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="calculation of remuneration required"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-02T22:02:35.812+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="determination of relevant methods for remuneration calculation"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-02T23:02:35.812+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="helper transition 3[{XOR}-&gt;{benefit dependent remuneration is to be calculated}]"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-03T00:02:35.812+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="benefit dependent remuneration is to be calculated"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-03T01:02:35.812+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="calculation of benefit dependent remuneration"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-03T02:02:35.812+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="helper transition 1[{XOR}-&gt;{characterized remuneration elements exist}]"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-03T03:02:35.812+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="characterized remuneration elements exist"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-03T04:02:35.812+10:00"/>
+		</event>
+	</trace>
+</log>

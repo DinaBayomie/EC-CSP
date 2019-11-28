@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- This file has been generated with the OpenXES library. It conforms -->
+<!-- to the XML serialization of the XES standard for log storage and -->
+<!-- management. -->
+<!-- XES standard version: 1.0 -->
+<!-- OpenXES library version: 1.0RC7 -->
+<!-- OpenXES is available from http://www.openxes.org/ -->
+<log xes.version="1.0" xes.features="nested-attributes" openxes.version="1.0RC7" xmlns="http://www.xes-standard.org/">
+	<trace>
+		<string key="concept:name" value="trace_0"/>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START EVENT"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-01T18:03:01.470+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START FUNCTION"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-01T19:03:01.470+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="helper transition 3[{XOR}-&gt;{collective determination is to carried out}]"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-01T20:03:01.470+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="collective determination is to carried out"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-01T21:03:01.470+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="helper transition 2[{collective determination is to carried out}-&gt;{XOR}]"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-01T22:03:01.470+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="preference determination"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-01T23:03:01.470+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="costing is carried out"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-02T00:03:01.470+10:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="trace_5"/>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START EVENT"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-03T05:03:01.470+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START FUNCTION"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-03T06:03:01.470+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="helper transition 0[{XOR}-&gt;{individual determination is to be carried out}]"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-03T07:03:01.470+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="individual determination is to be carried out"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-03T08:03:01.470+10:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="START EVENT"/>
+			<boolean key="noise" value="true"/>
+			<string key="lifecycle:transition" value="complete"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="helper transition 1[{individual determination is to be carried out}-&gt;{XOR}]"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-03T09:03:01.470+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="preference determination"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-03T10:03:01.470+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="costing is carried out"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-03T11:03:01.470+10:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="trace_0"/>
+		<event>
+			<string key="concept:name" value="preference determination"/>
+			<boolean key="noise" value="true"/>
+			<string key="lifecycle:transition" value="complete"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START EVENT"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-01T18:03:01.470+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START FUNCTION"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-01T19:03:01.470+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="helper transition 3[{XOR}-&gt;{collective determination is to carried out}]"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-01T20:03:01.470+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="collective determination is to carried out"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-01T21:03:01.470+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="helper transition 2[{collective determination is to carried out}-&gt;{XOR}]"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-01T22:03:01.470+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="preference determination"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-01T23:03:01.470+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="costing is carried out"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-02T00:03:01.470+10:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="trace_5"/>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START EVENT"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-03T05:03:01.470+10:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="helper transition 2[{collective determination is to carried out}-&gt;{XOR}]"/>
+			<boolean key="noise" value="true"/>
+			<string key="lifecycle:transition" value="complete"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START FUNCTION"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-03T06:03:01.470+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="helper transition 0[{XOR}-&gt;{individual determination is to be carried out}]"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-03T07:03:01.470+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="individual determination is to be carried out"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-03T08:03:01.470+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="helper transition 1[{individual determination is to be carried out}-&gt;{XOR}]"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-03T09:03:01.470+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="preference determination"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-03T10:03:01.470+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="costing is carried out"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-03T11:03:01.470+10:00"/>
+		</event>
+	</trace>
+</log>

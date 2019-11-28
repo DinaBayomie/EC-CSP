@@ -1,0 +1,902 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- This file has been generated with the OpenXES library. It conforms -->
+<!-- to the XML serialization of the XES standard for log storage and -->
+<!-- management. -->
+<!-- XES standard version: 1.0 -->
+<!-- OpenXES library version: 1.0RC7 -->
+<!-- OpenXES is available from http://www.openxes.org/ -->
+<log xes.version="1.0" xes.features="nested-attributes" openxes.version="1.0RC7" xmlns="http://www.xes-standard.org/">
+	<trace>
+		<string key="concept:name" value="trace_13"/>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START EVENT"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-07T17:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START FUNCTION"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-07T18:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="start 0 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-07T19:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="start 0 transition"/>
+			<boolean key="noise" value="true"/>
+			<string key="lifecycle:transition" value="complete"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="consolidation type specific preparation required"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-07T20:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="cross consolidation type preparation required"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-07T21:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="preparations sending system: consolidation type specific"/>
+			<boolean key="noise" value="true"/>
+			<string key="lifecycle:transition" value="complete"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="preparations sender system: related to all consolidation types"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-07T22:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="preparations sending system: consolidation type specific"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-07T23:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="3 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-08T00:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="preparation of sending system completed"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-08T01:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="preparations consolidation system"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-08T02:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="preparation of consolidation system is completed"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-08T03:02:51.037+10:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="trace_17"/>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START EVENT"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-09T13:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="preparations sending system: consolidation type specific"/>
+			<boolean key="noise" value="true"/>
+			<string key="lifecycle:transition" value="complete"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START FUNCTION"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-09T14:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="start 0 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-09T15:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="consolidation type specific preparation required"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-09T16:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="cross consolidation type preparation required"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-09T17:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="preparations sending system: consolidation type specific"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-09T18:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="3 transition"/>
+			<boolean key="noise" value="true"/>
+			<string key="lifecycle:transition" value="complete"/>
+		</event>
+		<event>
+			<string key="concept:name" value="consolidation type specific preparation required"/>
+			<boolean key="noise" value="true"/>
+			<string key="lifecycle:transition" value="complete"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="preparations sender system: related to all consolidation types"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-09T19:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="3 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-09T20:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="preparation of sending system completed"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-09T21:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="preparations consolidation system"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-09T22:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="preparation of consolidation system is completed"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-09T23:02:51.037+10:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="trace_22"/>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START EVENT"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-11T20:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START FUNCTION"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-11T21:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="start 0 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-11T22:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="consolidation type specific preparation required"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-11T23:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="preparations sending system: consolidation type specific"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-12T00:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="cross consolidation type preparation required"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-12T01:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="3 transition"/>
+			<boolean key="noise" value="true"/>
+			<string key="lifecycle:transition" value="complete"/>
+		</event>
+		<event>
+			<string key="concept:name" value="cross consolidation type preparation required"/>
+			<boolean key="noise" value="true"/>
+			<string key="lifecycle:transition" value="complete"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="preparations sender system: related to all consolidation types"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-12T02:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="START EVENT"/>
+			<boolean key="noise" value="true"/>
+			<string key="lifecycle:transition" value="complete"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="3 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-12T03:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="preparation of sending system completed"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-12T04:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="preparations consolidation system"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-12T05:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="preparation of consolidation system is completed"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-12T06:02:51.037+10:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="trace_0"/>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START EVENT"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-01T18:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START FUNCTION"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-01T19:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="start 0 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-01T20:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="cross consolidation type preparation required"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-01T21:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="preparations sender system: related to all consolidation types"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-01T22:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="consolidation type specific preparation required"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-01T23:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="preparations sending system: consolidation type specific"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-02T00:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="3 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-02T01:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="preparation of sending system completed"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-02T02:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="preparations consolidation system"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-02T03:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="preparation of consolidation system is completed"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-02T04:02:51.037+10:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="trace_5"/>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START EVENT"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-04T01:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START FUNCTION"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-04T02:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="start 0 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-04T03:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="cross consolidation type preparation required"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-04T04:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="consolidation type specific preparation required"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-04T05:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="3 transition"/>
+			<boolean key="noise" value="true"/>
+			<string key="lifecycle:transition" value="complete"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="preparations sender system: related to all consolidation types"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-04T06:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="preparations sending system: consolidation type specific"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-04T07:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="3 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-04T08:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="preparation of sending system completed"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-04T09:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="preparations consolidation system"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-04T10:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="preparation of consolidation system is completed"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-04T11:02:51.037+10:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="trace_9"/>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START EVENT"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-05T21:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START FUNCTION"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-05T22:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="start 0 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-05T23:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="cross consolidation type preparation required"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-06T00:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="consolidation type specific preparation required"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-06T01:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="preparations sending system: consolidation type specific"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-06T02:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="preparations sender system: related to all consolidation types"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-06T03:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="3 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-06T04:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="preparation of sending system completed"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-06T05:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="preparations consolidation system"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-06T06:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="preparation of consolidation system is completed"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-06T07:02:51.037+10:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="trace_13"/>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START EVENT"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-07T17:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START FUNCTION"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-07T18:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="start 0 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-07T19:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="consolidation type specific preparation required"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-07T20:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="cross consolidation type preparation required"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-07T21:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="preparations sender system: related to all consolidation types"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-07T22:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="preparations sending system: consolidation type specific"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-07T23:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="3 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-08T00:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="preparation of sending system completed"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-08T01:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="preparations consolidation system"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-08T02:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="preparation of consolidation system is completed"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-08T03:02:51.037+10:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="trace_17"/>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START EVENT"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-09T13:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START FUNCTION"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-09T14:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="start 0 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-09T15:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="consolidation type specific preparation required"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-09T16:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="cross consolidation type preparation required"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-09T17:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="preparations sending system: consolidation type specific"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-09T18:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="preparations sender system: related to all consolidation types"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-09T19:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="3 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-09T20:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="preparation of sending system completed"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-09T21:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="preparations consolidation system"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-09T22:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="preparation of consolidation system is completed"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-09T23:02:51.037+10:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="trace_22"/>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START EVENT"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-11T20:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START FUNCTION"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-11T21:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="start 0 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-11T22:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="consolidation type specific preparation required"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-11T23:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="preparations sending system: consolidation type specific"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-12T00:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="cross consolidation type preparation required"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-12T01:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="preparations sender system: related to all consolidation types"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-12T02:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="3 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-12T03:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="preparation of sending system completed"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-12T04:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="preparations consolidation system"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-12T05:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="preparation of consolidation system is completed"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-12T06:02:51.037+10:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="trace_0"/>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START EVENT"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-01T18:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START FUNCTION"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-01T19:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="start 0 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-01T20:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="cross consolidation type preparation required"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-01T21:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="START EVENT"/>
+			<boolean key="noise" value="true"/>
+			<string key="lifecycle:transition" value="complete"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="preparations sender system: related to all consolidation types"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-01T22:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="consolidation type specific preparation required"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-01T23:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="preparations sending system: consolidation type specific"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-02T00:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="3 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-02T01:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="preparation of sending system completed"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-02T02:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="preparation of sending system completed"/>
+			<boolean key="noise" value="true"/>
+			<string key="lifecycle:transition" value="complete"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="preparations consolidation system"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-02T03:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="preparation of consolidation system is completed"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-02T04:02:51.037+10:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="trace_5"/>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START EVENT"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-04T01:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START FUNCTION"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-04T02:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="start 0 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-04T03:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="cross consolidation type preparation required"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-04T04:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="consolidation type specific preparation required"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-04T05:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="preparations sender system: related to all consolidation types"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-04T06:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="preparations sending system: consolidation type specific"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-04T07:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="3 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-04T08:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="preparation of sending system completed"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-04T09:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="preparations consolidation system"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-04T10:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="preparation of consolidation system is completed"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-04T11:02:51.037+10:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="trace_9"/>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START EVENT"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-05T21:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START FUNCTION"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-05T22:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="start 0 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-05T23:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="cross consolidation type preparation required"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-06T00:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="consolidation type specific preparation required"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-06T01:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="preparations sending system: consolidation type specific"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-06T02:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="preparations sender system: related to all consolidation types"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-06T03:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="3 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-06T04:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="preparation of sending system completed"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-06T05:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="cross consolidation type preparation required"/>
+			<boolean key="noise" value="true"/>
+			<string key="lifecycle:transition" value="complete"/>
+		</event>
+		<event>
+			<string key="concept:name" value="preparations consolidation system"/>
+			<boolean key="noise" value="true"/>
+			<string key="lifecycle:transition" value="complete"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="preparations consolidation system"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-06T06:02:51.037+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="preparation of consolidation system is completed"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-06T07:02:51.037+10:00"/>
+		</event>
+	</trace>
+</log>

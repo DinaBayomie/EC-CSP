@@ -1,0 +1,902 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- This file has been generated with the OpenXES library. It conforms -->
+<!-- to the XML serialization of the XES standard for log storage and -->
+<!-- management. -->
+<!-- XES standard version: 1.0 -->
+<!-- OpenXES library version: 1.0RC7 -->
+<!-- OpenXES is available from http://www.openxes.org/ -->
+<log xes.version="1.0" xes.features="nested-attributes" openxes.version="1.0RC7" xmlns="http://www.xes-standard.org/">
+	<trace>
+		<string key="concept:name" value="trace_0"/>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="close project"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-01T18:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="project closing documentation"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-01T19:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="settle project"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-01T20:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="final settlement"/>
+			<boolean key="noise" value="true"/>
+			<string key="lifecycle:transition" value="complete"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="10 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-01T21:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="final results analysis"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-01T22:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="project closing documentation"/>
+			<boolean key="noise" value="true"/>
+			<string key="lifecycle:transition" value="complete"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="final invoice processing"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-01T23:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="final settlement"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-02T00:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="3 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-02T01:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="change project status"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-02T02:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="set project closed status"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-02T03:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="guarantee product service"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-02T04:02:38.098+10:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="trace_16"/>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="close project"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-09T02:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="project closing documentation"/>
+			<boolean key="noise" value="true"/>
+			<string key="lifecycle:transition" value="complete"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="project closing documentation"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-09T03:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="settle project"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-09T04:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="10 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-09T05:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="final settlement"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-09T06:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="final results analysis"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-09T07:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="guarantee product service"/>
+			<boolean key="noise" value="true"/>
+			<string key="lifecycle:transition" value="complete"/>
+		</event>
+		<event>
+			<string key="concept:name" value="change project status"/>
+			<boolean key="noise" value="true"/>
+			<string key="lifecycle:transition" value="complete"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="final invoice processing"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-09T08:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="3 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-09T09:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="change project status"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-09T10:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="set project closed status"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-09T11:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="guarantee product service"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-09T12:02:38.098+10:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="trace_12"/>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="close project"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-07T06:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="project closing documentation"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-07T07:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="settle project"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-07T08:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="10 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-07T09:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="final invoice processing"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-07T10:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="final settlement"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-07T11:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="guarantee product service"/>
+			<boolean key="noise" value="true"/>
+			<string key="lifecycle:transition" value="complete"/>
+		</event>
+		<event>
+			<string key="concept:name" value="final results analysis"/>
+			<boolean key="noise" value="true"/>
+			<string key="lifecycle:transition" value="complete"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="final results analysis"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-07T12:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="final invoice processing"/>
+			<boolean key="noise" value="true"/>
+			<string key="lifecycle:transition" value="complete"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="3 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-07T13:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="change project status"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-07T14:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="set project closed status"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-07T15:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="guarantee product service"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-07T16:02:38.098+10:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="trace_19"/>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="close project"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-10T11:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="project closing documentation"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-10T12:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="settle project"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-10T13:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="10 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-10T14:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="final settlement"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-10T15:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="final invoice processing"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-10T16:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="final results analysis"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-10T17:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="3 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-10T18:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="change project status"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-10T19:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="set project closed status"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-10T20:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="guarantee product service"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-10T21:02:38.098+10:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="trace_8"/>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="close project"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-05T10:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="project closing documentation"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-05T11:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="settle project"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-05T12:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="10 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-05T13:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="final invoice processing"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-05T14:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="guarantee product service"/>
+			<boolean key="noise" value="true"/>
+			<string key="lifecycle:transition" value="complete"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="final results analysis"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-05T15:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="final settlement"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-05T16:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="3 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-05T17:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="change project status"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-05T18:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="set project closed status"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-05T19:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="guarantee product service"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-05T20:02:38.098+10:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="trace_5"/>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="close project"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-04T01:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="project closing documentation"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-04T02:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="settle project"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-04T03:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="10 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-04T04:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="final results analysis"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-04T05:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="final settlement"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-04T06:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="final invoice processing"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-04T07:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="3 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-04T08:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="change project status"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-04T09:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="set project closed status"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-04T10:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="guarantee product service"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-04T11:02:38.098+10:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="trace_0"/>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="close project"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-01T18:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="project closing documentation"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-01T19:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="settle project"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-01T20:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="10 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-01T21:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="final results analysis"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-01T22:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="final invoice processing"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-01T23:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="final settlement"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-02T00:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="3 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-02T01:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="change project status"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-02T02:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="set project closed status"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-02T03:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="guarantee product service"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-02T04:02:38.098+10:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="trace_16"/>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="close project"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-09T02:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="project closing documentation"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-09T03:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="settle project"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-09T04:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="10 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-09T05:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="final settlement"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-09T06:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="final results analysis"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-09T07:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="final invoice processing"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-09T08:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="3 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-09T09:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="change project status"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-09T10:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="set project closed status"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-09T11:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="guarantee product service"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-09T12:02:38.098+10:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="trace_12"/>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="close project"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-07T06:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="project closing documentation"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-07T07:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="settle project"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-07T08:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="10 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-07T09:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="final invoice processing"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-07T10:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="final settlement"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-07T11:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="final results analysis"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-07T12:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="3 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-07T13:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="change project status"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-07T14:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="set project closed status"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-07T15:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="guarantee product service"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-07T16:02:38.098+10:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="trace_19"/>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="close project"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-10T11:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="project closing documentation"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-10T12:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="settle project"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-10T13:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="10 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-10T14:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="final invoice processing"/>
+			<boolean key="noise" value="true"/>
+			<string key="lifecycle:transition" value="complete"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="final settlement"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-10T15:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="final invoice processing"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-10T16:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="final results analysis"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-10T17:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="3 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-10T18:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="change project status"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-10T19:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="close project"/>
+			<boolean key="noise" value="true"/>
+			<string key="lifecycle:transition" value="complete"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="set project closed status"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-10T20:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="guarantee product service"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-10T21:02:38.098+10:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="trace_8"/>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="close project"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-05T10:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="project closing documentation"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-05T11:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="settle project"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-05T12:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="10 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-05T13:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="final invoice processing"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-05T14:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="final results analysis"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-05T15:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="final settlement"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-05T16:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="3 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-05T17:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="change project status"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-05T18:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="set project closed status"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-05T19:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="guarantee product service"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-05T20:02:38.098+10:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="trace_5"/>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="close project"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-04T01:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="project closing documentation"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-04T02:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="settle project"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-04T03:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="10 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-04T04:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="final results analysis"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-04T05:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="final settlement"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-04T06:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="final invoice processing"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-04T07:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="3 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-04T08:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="change project status"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-04T09:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="final results analysis"/>
+			<boolean key="noise" value="true"/>
+			<string key="lifecycle:transition" value="complete"/>
+		</event>
+		<event>
+			<string key="concept:name" value="settle project"/>
+			<boolean key="noise" value="true"/>
+			<string key="lifecycle:transition" value="complete"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="set project closed status"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-04T10:02:38.098+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="guarantee product service"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-04T11:02:38.098+10:00"/>
+		</event>
+	</trace>
+</log>

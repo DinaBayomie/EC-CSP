@@ -1,0 +1,2989 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- This file has been generated with the OpenXES library. It conforms -->
+<!-- to the XML serialization of the XES standard for log storage and -->
+<!-- management. -->
+<!-- XES standard version: 1.0 -->
+<!-- OpenXES library version: 1.0RC7 -->
+<!-- OpenXES is available from http://www.openxes.org/ -->
+<log xes.version="1.0" xes.features="nested-attributes" openxes.version="1.0RC7" xmlns="http://www.xes-standard.org/">
+	<trace>
+		<string key="concept:name" value="trace_26"/>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START EVENT"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-13T16:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START FUNCTION"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-13T17:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="start 0 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-13T18:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="helper transition 4[{XOR}-&gt;{assigned funds are within tolerance limits}]"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-13T19:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="assigned funds are within tolerance limits"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-13T20:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="budget is assigned"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-13T21:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="helper transition 11[{assigned funds are within tolerance limits}-&gt;{XOR}]"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-13T22:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="xor/and helper 7"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-13T23:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="79 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-14T00:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="update of overhead cost order budget"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-14T01:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="helper transition 11[{assigned funds are within tolerance limits}-&gt;{XOR}]"/>
+			<boolean key="noise" value="true"/>
+			<string key="lifecycle:transition" value="complete"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="budget is updated"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-14T02:01:36.841+10:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="trace_39"/>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START EVENT"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-19T15:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START FUNCTION"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-19T16:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="start 0 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-19T17:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="helper transition 6[{XOR}-&gt;{posting was rejected due to budget overrun}]"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-19T18:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="posting was rejected due to budget overrun"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-19T19:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="helper transition 2[{posting was rejected due to budget overrun}-&gt;{XOR}]"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-19T20:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="helper transition 5[{XOR}-&gt;{budget is to be updated}]"/>
+			<boolean key="noise" value="true"/>
+			<string key="lifecycle:transition" value="complete"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="budget is assigned"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-19T21:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="xor/and helper 7"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-19T22:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="xor/and helper 7"/>
+			<boolean key="noise" value="true"/>
+			<string key="lifecycle:transition" value="complete"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="79 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-19T23:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="update of overhead cost order budget"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-20T00:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="budget is updated"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-20T01:01:36.841+10:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="trace_4"/>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START EVENT"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-03T14:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START FUNCTION"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-03T15:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="start 0 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-03T16:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="helper transition 5[{XOR}-&gt;{budget is to be updated}]"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-03T17:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="helper transition 1[{XOR}-&gt;{posting was allowed despite budget overrun}]"/>
+			<boolean key="noise" value="true"/>
+			<string key="lifecycle:transition" value="complete"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="budget is to be updated"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-03T18:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="helper transition 10[{budget is to be updated}-&gt;{XOR}]"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-03T19:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="budget is assigned"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-03T20:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="xor/and helper 7"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-03T21:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="79 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-03T22:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="update of overhead cost order budget"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-03T23:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="budget is updated"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-04T00:01:36.841+10:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="trace_75"/>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START EVENT"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-01-05T03:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START FUNCTION"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-01-05T04:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="start 0 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-01-05T05:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="budget is assigned"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-01-05T06:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="helper transition 4[{XOR}-&gt;{assigned funds are within tolerance limits}]"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-01-05T07:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="assigned funds are within tolerance limits"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-01-05T08:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="helper transition 11[{assigned funds are within tolerance limits}-&gt;{XOR}]"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-01-05T09:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="xor/and helper 7"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-01-05T10:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="79 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-01-05T11:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="update of overhead cost order budget"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-01-05T12:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="budget is updated"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-01-05T13:01:36.841+10:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="trace_52"/>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START EVENT"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-25T14:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START FUNCTION"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-25T15:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="start 0 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-25T16:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="helper transition 1[{XOR}-&gt;{posting was allowed despite budget overrun}]"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-25T17:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="posting was allowed despite budget overrun"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-25T18:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="budget is assigned"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-25T19:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="helper transition 0[{posting was allowed despite budget overrun}-&gt;{XOR}]"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-25T20:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="xor/and helper 7"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-25T21:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="79 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-25T22:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="update of overhead cost order budget"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-25T23:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="budget is updated"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-26T00:01:36.841+10:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="trace_0"/>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START EVENT"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-01T18:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="xor/and helper 7"/>
+			<boolean key="noise" value="true"/>
+			<string key="lifecycle:transition" value="complete"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START FUNCTION"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-01T19:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="start 0 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-01T20:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="helper transition 5[{XOR}-&gt;{budget is to be updated}]"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-01T21:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="budget is to be updated"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-01T22:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="79 transition"/>
+			<boolean key="noise" value="true"/>
+			<string key="lifecycle:transition" value="complete"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="helper transition 10[{budget is to be updated}-&gt;{XOR}]"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-01T23:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="START EVENT"/>
+			<boolean key="noise" value="true"/>
+			<string key="lifecycle:transition" value="complete"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="xor/and helper 7"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-02T00:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="budget is assigned"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-02T01:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="79 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-02T02:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="update of overhead cost order budget"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-02T03:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="budget is updated"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-02T04:01:36.841+10:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="trace_48"/>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START EVENT"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-23T18:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START FUNCTION"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-23T19:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="start 0 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-23T20:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="helper transition 6[{XOR}-&gt;{posting was rejected due to budget overrun}]"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-23T21:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="budget is assigned"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-23T22:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="posting was rejected due to budget overrun"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-23T23:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="helper transition 2[{posting was rejected due to budget overrun}-&gt;{XOR}]"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-24T00:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="xor/and helper 7"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-24T01:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="79 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-24T02:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="update of overhead cost order budget"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-24T03:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="budget is updated"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-24T04:01:36.841+10:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="trace_84"/>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START EVENT"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-01-09T06:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START FUNCTION"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-01-09T07:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="start 0 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-01-09T08:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="budget is assigned"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-01-09T09:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="helper transition 1[{XOR}-&gt;{posting was allowed despite budget overrun}]"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-01-09T10:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="posting was allowed despite budget overrun"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-01-09T11:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="helper transition 0[{posting was allowed despite budget overrun}-&gt;{XOR}]"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-01-09T12:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="xor/and helper 7"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-01-09T13:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="79 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-01-09T14:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="budget is to be updated"/>
+			<boolean key="noise" value="true"/>
+			<string key="lifecycle:transition" value="complete"/>
+		</event>
+		<event>
+			<string key="concept:name" value="helper transition 6[{XOR}-&gt;{posting was rejected due to budget overrun}]"/>
+			<boolean key="noise" value="true"/>
+			<string key="lifecycle:transition" value="complete"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="update of overhead cost order budget"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-01-09T15:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="budget is updated"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-01-09T16:01:36.841+10:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="trace_61"/>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START EVENT"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-29T17:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START FUNCTION"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-29T18:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="start 0 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-29T19:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="helper transition 1[{XOR}-&gt;{posting was allowed despite budget overrun}]"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-29T20:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="posting was allowed despite budget overrun"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-29T21:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="helper transition 0[{posting was allowed despite budget overrun}-&gt;{XOR}]"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-29T22:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="helper transition 11[{assigned funds are within tolerance limits}-&gt;{XOR}]"/>
+			<boolean key="noise" value="true"/>
+			<string key="lifecycle:transition" value="complete"/>
+		</event>
+		<event>
+			<string key="concept:name" value="budget is updated"/>
+			<boolean key="noise" value="true"/>
+			<string key="lifecycle:transition" value="complete"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="budget is assigned"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-29T23:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="xor/and helper 7"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-30T00:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="79 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-30T01:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="update of overhead cost order budget"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-30T02:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="budget is updated"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-30T03:01:36.841+10:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="trace_17"/>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START EVENT"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-09T13:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START FUNCTION"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-09T14:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="start 0 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-09T15:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="helper transition 4[{XOR}-&gt;{assigned funds are within tolerance limits}]"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-09T16:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="helper transition 6[{XOR}-&gt;{posting was rejected due to budget overrun}]"/>
+			<boolean key="noise" value="true"/>
+			<string key="lifecycle:transition" value="complete"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="assigned funds are within tolerance limits"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-09T17:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="helper transition 11[{assigned funds are within tolerance limits}-&gt;{XOR}]"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-09T18:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="xor/and helper 7"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-09T19:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="budget is assigned"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-09T20:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="79 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-09T21:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="update of overhead cost order budget"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-09T22:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="budget is updated"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-09T23:01:36.841+10:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="trace_12"/>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START EVENT"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-07T06:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START FUNCTION"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-07T07:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="start 0 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-07T08:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="helper transition 5[{XOR}-&gt;{budget is to be updated}]"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-07T09:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="budget is assigned"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-07T10:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="budget is to be updated"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-07T11:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="helper transition 10[{budget is to be updated}-&gt;{XOR}]"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-07T12:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="posting was allowed despite budget overrun"/>
+			<boolean key="noise" value="true"/>
+			<string key="lifecycle:transition" value="complete"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="xor/and helper 7"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-07T13:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="79 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-07T14:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="update of overhead cost order budget"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-07T15:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="budget is updated"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-07T16:01:36.841+10:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="trace_31"/>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START EVENT"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-15T23:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START FUNCTION"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-16T00:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="start 0 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-16T01:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="helper transition 4[{XOR}-&gt;{assigned funds are within tolerance limits}]"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-16T02:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="budget is assigned"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-16T03:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="assigned funds are within tolerance limits"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-16T04:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="helper transition 11[{assigned funds are within tolerance limits}-&gt;{XOR}]"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-16T05:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="xor/and helper 7"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-16T06:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="79 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-16T07:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="update of overhead cost order budget"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-16T08:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="budget is updated"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-16T09:01:36.841+10:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="trace_22"/>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START EVENT"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-11T20:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="xor/and helper 7"/>
+			<boolean key="noise" value="true"/>
+			<string key="lifecycle:transition" value="complete"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START FUNCTION"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-11T21:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="start 0 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-11T22:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="helper transition 4[{XOR}-&gt;{assigned funds are within tolerance limits}]"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-11T23:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="assigned funds are within tolerance limits"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-12T00:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="helper transition 11[{assigned funds are within tolerance limits}-&gt;{XOR}]"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-12T01:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="budget is assigned"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-12T02:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="xor/and helper 7"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-12T03:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="79 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-12T04:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="update of overhead cost order budget"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-12T05:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="budget is updated"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-12T06:01:36.841+10:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="trace_65"/>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START EVENT"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-31T13:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START FUNCTION"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-31T14:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="start 0 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-31T15:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="helper transition 1[{XOR}-&gt;{posting was allowed despite budget overrun}]"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-31T16:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="budget is assigned"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-31T17:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="posting was allowed despite budget overrun"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-31T18:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="budget is to be updated"/>
+			<boolean key="noise" value="true"/>
+			<string key="lifecycle:transition" value="complete"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="helper transition 0[{posting was allowed despite budget overrun}-&gt;{XOR}]"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-31T19:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="xor/and helper 7"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-31T20:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="79 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-31T21:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="helper transition 4[{XOR}-&gt;{assigned funds are within tolerance limits}]"/>
+			<boolean key="noise" value="true"/>
+			<string key="lifecycle:transition" value="complete"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="update of overhead cost order budget"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-31T22:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="budget is updated"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-31T23:01:36.841+10:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="trace_80"/>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START EVENT"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-01-07T10:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START FUNCTION"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-01-07T11:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="start 0 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-01-07T12:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="budget is assigned"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-01-07T13:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="helper transition 6[{XOR}-&gt;{posting was rejected due to budget overrun}]"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-01-07T14:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="posting was rejected due to budget overrun"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-01-07T15:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="helper transition 2[{posting was rejected due to budget overrun}-&gt;{XOR}]"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-01-07T16:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="xor/and helper 7"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-01-07T17:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="79 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-01-07T18:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="update of overhead cost order budget"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-01-07T19:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="budget is updated"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-01-07T20:01:36.841+10:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="trace_43"/>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START EVENT"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-21T11:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START FUNCTION"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-21T12:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="start 0 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-21T13:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="helper transition 6[{XOR}-&gt;{posting was rejected due to budget overrun}]"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-21T14:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="posting was rejected due to budget overrun"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-21T15:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="budget is assigned"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-21T16:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="helper transition 2[{posting was rejected due to budget overrun}-&gt;{XOR}]"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-21T17:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="xor/and helper 7"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-21T18:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="79 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-21T19:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="update of overhead cost order budget"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-21T20:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="helper transition 1[{XOR}-&gt;{posting was allowed despite budget overrun}]"/>
+			<boolean key="noise" value="true"/>
+			<string key="lifecycle:transition" value="complete"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="budget is updated"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-21T21:01:36.841+10:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="trace_57"/>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START EVENT"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-27T21:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START FUNCTION"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-27T22:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="start 0 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-27T23:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="helper transition 1[{XOR}-&gt;{posting was allowed despite budget overrun}]"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-28T00:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="posting was allowed despite budget overrun"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-28T01:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="helper transition 0[{posting was allowed despite budget overrun}-&gt;{XOR}]"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-28T02:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="xor/and helper 7"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-28T03:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="budget is assigned"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-28T04:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="79 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-28T05:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="helper transition 6[{XOR}-&gt;{posting was rejected due to budget overrun}]"/>
+			<boolean key="noise" value="true"/>
+			<string key="lifecycle:transition" value="complete"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="update of overhead cost order budget"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-28T06:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="budget is updated"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-28T07:01:36.841+10:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="trace_7"/>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START EVENT"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-04T23:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START FUNCTION"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-05T00:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="start 0 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-05T01:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="helper transition 5[{XOR}-&gt;{budget is to be updated}]"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-05T02:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="budget is to be updated"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-05T03:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="budget is assigned"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-05T04:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="helper transition 10[{budget is to be updated}-&gt;{XOR}]"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-05T05:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="xor/and helper 7"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-05T06:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="79 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-05T07:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="update of overhead cost order budget"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-05T08:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="budget is updated"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-05T09:01:36.841+10:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="trace_70"/>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START EVENT"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-01-02T20:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START FUNCTION"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-01-02T21:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="helper transition 10[{budget is to be updated}-&gt;{XOR}]"/>
+			<boolean key="noise" value="true"/>
+			<string key="lifecycle:transition" value="complete"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="start 0 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-01-02T22:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="budget is assigned"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-01-02T23:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="helper transition 5[{XOR}-&gt;{budget is to be updated}]"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-01-03T00:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="budget is to be updated"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-01-03T01:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="helper transition 10[{budget is to be updated}-&gt;{XOR}]"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-01-03T02:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="helper transition 4[{XOR}-&gt;{assigned funds are within tolerance limits}]"/>
+			<boolean key="noise" value="true"/>
+			<string key="lifecycle:transition" value="complete"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="xor/and helper 7"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-01-03T03:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="79 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-01-03T04:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="update of overhead cost order budget"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-01-03T05:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="budget is updated"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-01-03T06:01:36.841+10:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="trace_36"/>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START EVENT"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-18T06:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START FUNCTION"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-18T07:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="xor/and helper 7"/>
+			<boolean key="noise" value="true"/>
+			<string key="lifecycle:transition" value="complete"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="start 0 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-18T08:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="helper transition 6[{XOR}-&gt;{posting was rejected due to budget overrun}]"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-18T09:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="posting was rejected due to budget overrun"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-18T10:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="helper transition 2[{posting was rejected due to budget overrun}-&gt;{XOR}]"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-18T11:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="xor/and helper 7"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-18T12:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="budget is assigned"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-18T13:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="79 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-18T14:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="update of overhead cost order budget"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-18T15:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="budget is updated"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-18T16:01:36.841+10:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="trace_26"/>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START EVENT"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-13T16:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START FUNCTION"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-13T17:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="start 0 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-13T18:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="helper transition 4[{XOR}-&gt;{assigned funds are within tolerance limits}]"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-13T19:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="assigned funds are within tolerance limits"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-13T20:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="budget is assigned"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-13T21:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="helper transition 11[{assigned funds are within tolerance limits}-&gt;{XOR}]"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-13T22:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="xor/and helper 7"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-13T23:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="79 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-14T00:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="update of overhead cost order budget"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-14T01:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="budget is updated"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-14T02:01:36.841+10:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="trace_39"/>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START EVENT"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-19T15:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="posting was rejected due to budget overrun"/>
+			<boolean key="noise" value="true"/>
+			<string key="lifecycle:transition" value="complete"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START FUNCTION"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-19T16:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="start 0 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-19T17:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="helper transition 6[{XOR}-&gt;{posting was rejected due to budget overrun}]"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-19T18:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="posting was rejected due to budget overrun"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-19T19:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="start 0 transition"/>
+			<boolean key="noise" value="true"/>
+			<string key="lifecycle:transition" value="complete"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="helper transition 2[{posting was rejected due to budget overrun}-&gt;{XOR}]"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-19T20:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="budget is assigned"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-19T21:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="xor/and helper 7"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-19T22:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="79 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-19T23:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="posting was rejected due to budget overrun"/>
+			<boolean key="noise" value="true"/>
+			<string key="lifecycle:transition" value="complete"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="update of overhead cost order budget"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-20T00:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="budget is updated"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-20T01:01:36.841+10:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="trace_4"/>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START EVENT"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-03T14:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START FUNCTION"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-03T15:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="start 0 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-03T16:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="helper transition 5[{XOR}-&gt;{budget is to be updated}]"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-03T17:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="budget is to be updated"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-03T18:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="helper transition 10[{budget is to be updated}-&gt;{XOR}]"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-03T19:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="budget is assigned"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-03T20:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="xor/and helper 7"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-03T21:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="79 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-03T22:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="update of overhead cost order budget"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-03T23:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="budget is updated"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-04T00:01:36.841+10:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="trace_75"/>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START EVENT"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-01-05T03:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START FUNCTION"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-01-05T04:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="start 0 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-01-05T05:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="budget is assigned"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-01-05T06:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="helper transition 4[{XOR}-&gt;{assigned funds are within tolerance limits}]"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-01-05T07:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="assigned funds are within tolerance limits"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-01-05T08:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="helper transition 2[{posting was rejected due to budget overrun}-&gt;{XOR}]"/>
+			<boolean key="noise" value="true"/>
+			<string key="lifecycle:transition" value="complete"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="helper transition 11[{assigned funds are within tolerance limits}-&gt;{XOR}]"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-01-05T09:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="xor/and helper 7"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-01-05T10:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="79 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-01-05T11:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="update of overhead cost order budget"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-01-05T12:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="budget is updated"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-01-05T13:01:36.841+10:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="trace_52"/>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START EVENT"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-25T14:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START FUNCTION"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-25T15:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="start 0 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-25T16:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="helper transition 0[{posting was allowed despite budget overrun}-&gt;{XOR}]"/>
+			<boolean key="noise" value="true"/>
+			<string key="lifecycle:transition" value="complete"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="helper transition 1[{XOR}-&gt;{posting was allowed despite budget overrun}]"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-25T17:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="helper transition 2[{posting was rejected due to budget overrun}-&gt;{XOR}]"/>
+			<boolean key="noise" value="true"/>
+			<string key="lifecycle:transition" value="complete"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="posting was allowed despite budget overrun"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-25T18:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="helper transition 1[{XOR}-&gt;{posting was allowed despite budget overrun}]"/>
+			<boolean key="noise" value="true"/>
+			<string key="lifecycle:transition" value="complete"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="budget is assigned"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-25T19:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="helper transition 0[{posting was allowed despite budget overrun}-&gt;{XOR}]"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-25T20:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="xor/and helper 7"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-25T21:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="79 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-25T22:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="helper transition 10[{budget is to be updated}-&gt;{XOR}]"/>
+			<boolean key="noise" value="true"/>
+			<string key="lifecycle:transition" value="complete"/>
+		</event>
+		<event>
+			<string key="concept:name" value="update of overhead cost order budget"/>
+			<boolean key="noise" value="true"/>
+			<string key="lifecycle:transition" value="complete"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="update of overhead cost order budget"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-25T23:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="budget is updated"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-26T00:01:36.841+10:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="trace_0"/>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START EVENT"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-01T18:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START FUNCTION"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-01T19:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="start 0 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-01T20:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="helper transition 5[{XOR}-&gt;{budget is to be updated}]"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-01T21:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="budget is to be updated"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-01T22:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="helper transition 10[{budget is to be updated}-&gt;{XOR}]"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-01T23:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="xor/and helper 7"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-02T00:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="budget is assigned"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-02T01:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="79 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-02T02:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="update of overhead cost order budget"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-02T03:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="budget is updated"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-02T04:01:36.841+10:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="trace_48"/>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START EVENT"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-23T18:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START FUNCTION"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-23T19:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="helper transition 1[{XOR}-&gt;{posting was allowed despite budget overrun}]"/>
+			<boolean key="noise" value="true"/>
+			<string key="lifecycle:transition" value="complete"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="start 0 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-23T20:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="helper transition 6[{XOR}-&gt;{posting was rejected due to budget overrun}]"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-23T21:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="budget is assigned"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-23T22:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="helper transition 1[{XOR}-&gt;{posting was allowed despite budget overrun}]"/>
+			<boolean key="noise" value="true"/>
+			<string key="lifecycle:transition" value="complete"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="posting was rejected due to budget overrun"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-23T23:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="helper transition 2[{posting was rejected due to budget overrun}-&gt;{XOR}]"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-24T00:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="xor/and helper 7"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-24T01:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="helper transition 6[{XOR}-&gt;{posting was rejected due to budget overrun}]"/>
+			<boolean key="noise" value="true"/>
+			<string key="lifecycle:transition" value="complete"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="79 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-24T02:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="update of overhead cost order budget"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-24T03:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="budget is updated"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-24T04:01:36.841+10:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="trace_84"/>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START EVENT"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-01-09T06:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START FUNCTION"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-01-09T07:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="start 0 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-01-09T08:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="budget is assigned"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-01-09T09:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="helper transition 1[{XOR}-&gt;{posting was allowed despite budget overrun}]"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-01-09T10:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="posting was allowed despite budget overrun"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-01-09T11:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="helper transition 0[{posting was allowed despite budget overrun}-&gt;{XOR}]"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-01-09T12:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="xor/and helper 7"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-01-09T13:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="79 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-01-09T14:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="update of overhead cost order budget"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-01-09T15:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="budget is updated"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-01-09T16:01:36.841+10:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="trace_61"/>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START EVENT"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-29T17:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START FUNCTION"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-29T18:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="start 0 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-29T19:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="helper transition 1[{XOR}-&gt;{posting was allowed despite budget overrun}]"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-29T20:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="posting was allowed despite budget overrun"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-29T21:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="helper transition 0[{posting was allowed despite budget overrun}-&gt;{XOR}]"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-29T22:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="budget is assigned"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-29T23:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="xor/and helper 7"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-30T00:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="79 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-30T01:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="update of overhead cost order budget"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-30T02:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="budget is updated"/>
+			<boolean key="noise" value="true"/>
+			<string key="lifecycle:transition" value="complete"/>
+		</event>
+		<event>
+			<string key="concept:name" value="helper transition 11[{assigned funds are within tolerance limits}-&gt;{XOR}]"/>
+			<boolean key="noise" value="true"/>
+			<string key="lifecycle:transition" value="complete"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="budget is updated"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-30T03:01:36.841+10:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="trace_17"/>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START EVENT"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-09T13:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="START FUNCTION"/>
+			<boolean key="noise" value="true"/>
+			<string key="lifecycle:transition" value="complete"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START FUNCTION"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-09T14:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="start 0 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-09T15:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="helper transition 4[{XOR}-&gt;{assigned funds are within tolerance limits}]"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-09T16:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="assigned funds are within tolerance limits"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-09T17:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="helper transition 11[{assigned funds are within tolerance limits}-&gt;{XOR}]"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-09T18:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="xor/and helper 7"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-09T19:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="budget is assigned"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-09T20:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="79 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-09T21:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="update of overhead cost order budget"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-09T22:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="budget is updated"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-09T23:01:36.841+10:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="trace_12"/>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START EVENT"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-07T06:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START FUNCTION"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-07T07:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="start 0 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-07T08:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="helper transition 5[{XOR}-&gt;{budget is to be updated}]"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-07T09:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="budget is assigned"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-07T10:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="budget is to be updated"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-07T11:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="helper transition 10[{budget is to be updated}-&gt;{XOR}]"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-07T12:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="xor/and helper 7"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-07T13:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="79 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-07T14:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="helper transition 10[{budget is to be updated}-&gt;{XOR}]"/>
+			<boolean key="noise" value="true"/>
+			<string key="lifecycle:transition" value="complete"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="update of overhead cost order budget"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-07T15:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="budget is updated"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-07T16:01:36.841+10:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="trace_31"/>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START EVENT"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-15T23:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START FUNCTION"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-16T00:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="start 0 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-16T01:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="helper transition 4[{XOR}-&gt;{assigned funds are within tolerance limits}]"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-16T02:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="budget is assigned"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-16T03:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="assigned funds are within tolerance limits"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-16T04:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="helper transition 11[{assigned funds are within tolerance limits}-&gt;{XOR}]"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-16T05:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="xor/and helper 7"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-16T06:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="79 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-16T07:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="update of overhead cost order budget"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-16T08:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="budget is updated"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-16T09:01:36.841+10:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="trace_22"/>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START EVENT"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-11T20:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START FUNCTION"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-11T21:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="start 0 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-11T22:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="helper transition 4[{XOR}-&gt;{assigned funds are within tolerance limits}]"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-11T23:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="assigned funds are within tolerance limits"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-12T00:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="helper transition 11[{assigned funds are within tolerance limits}-&gt;{XOR}]"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-12T01:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="budget is assigned"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-12T02:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="xor/and helper 7"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-12T03:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="79 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-12T04:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="update of overhead cost order budget"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-12T05:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="budget is updated"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-12T06:01:36.841+10:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="trace_65"/>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START EVENT"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-31T13:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START FUNCTION"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-31T14:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="start 0 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-31T15:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="helper transition 1[{XOR}-&gt;{posting was allowed despite budget overrun}]"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-31T16:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="budget is assigned"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-31T17:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="posting was allowed despite budget overrun"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-31T18:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="helper transition 0[{posting was allowed despite budget overrun}-&gt;{XOR}]"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-31T19:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="xor/and helper 7"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-31T20:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="79 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-31T21:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="update of overhead cost order budget"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-31T22:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="START EVENT"/>
+			<boolean key="noise" value="true"/>
+			<string key="lifecycle:transition" value="complete"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="budget is updated"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-31T23:01:36.841+10:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="trace_80"/>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START EVENT"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-01-07T10:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START FUNCTION"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-01-07T11:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="start 0 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-01-07T12:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="budget is assigned"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-01-07T13:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="helper transition 6[{XOR}-&gt;{posting was rejected due to budget overrun}]"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-01-07T14:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="posting was rejected due to budget overrun"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-01-07T15:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="helper transition 2[{posting was rejected due to budget overrun}-&gt;{XOR}]"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-01-07T16:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="xor/and helper 7"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-01-07T17:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="79 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-01-07T18:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="update of overhead cost order budget"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-01-07T19:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="budget is updated"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-01-07T20:01:36.841+10:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="trace_43"/>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START EVENT"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-21T11:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START FUNCTION"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-21T12:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="start 0 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-21T13:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="helper transition 6[{XOR}-&gt;{posting was rejected due to budget overrun}]"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-21T14:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="posting was rejected due to budget overrun"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-21T15:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="budget is assigned"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-21T16:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="helper transition 2[{posting was rejected due to budget overrun}-&gt;{XOR}]"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-21T17:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="xor/and helper 7"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-21T18:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="79 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-21T19:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="update of overhead cost order budget"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-21T20:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="budget is updated"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-21T21:01:36.841+10:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="trace_57"/>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START EVENT"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-27T21:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START FUNCTION"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-27T22:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="start 0 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-27T23:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="helper transition 1[{XOR}-&gt;{posting was allowed despite budget overrun}]"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-28T00:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="posting was allowed despite budget overrun"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-28T01:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="helper transition 0[{posting was allowed despite budget overrun}-&gt;{XOR}]"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-28T02:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="xor/and helper 7"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-28T03:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="budget is assigned"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-28T04:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="79 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-28T05:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="xor/and helper 7"/>
+			<boolean key="noise" value="true"/>
+			<string key="lifecycle:transition" value="complete"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="update of overhead cost order budget"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-28T06:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="budget is updated"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-28T07:01:36.841+10:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="trace_7"/>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START EVENT"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-04T23:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="xor/and helper 7"/>
+			<boolean key="noise" value="true"/>
+			<string key="lifecycle:transition" value="complete"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START FUNCTION"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-05T00:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="start 0 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-05T01:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="helper transition 5[{XOR}-&gt;{budget is to be updated}]"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-05T02:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="budget is to be updated"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-05T03:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="budget is assigned"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-05T04:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="helper transition 10[{budget is to be updated}-&gt;{XOR}]"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-05T05:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="xor/and helper 7"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-05T06:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="79 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-05T07:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="update of overhead cost order budget"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-05T08:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="budget is updated"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-05T09:01:36.841+10:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="trace_70"/>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START EVENT"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-01-02T20:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="helper transition 0[{posting was allowed despite budget overrun}-&gt;{XOR}]"/>
+			<boolean key="noise" value="true"/>
+			<string key="lifecycle:transition" value="complete"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START FUNCTION"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-01-02T21:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="start 0 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-01-02T22:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="budget is assigned"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-01-02T23:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="helper transition 5[{XOR}-&gt;{budget is to be updated}]"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-01-03T00:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="budget is to be updated"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-01-03T01:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="helper transition 10[{budget is to be updated}-&gt;{XOR}]"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-01-03T02:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="xor/and helper 7"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-01-03T03:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="79 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-01-03T04:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="helper transition 10[{budget is to be updated}-&gt;{XOR}]"/>
+			<boolean key="noise" value="true"/>
+			<string key="lifecycle:transition" value="complete"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="update of overhead cost order budget"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-01-03T05:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="budget is updated"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-01-03T06:01:36.841+10:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="trace_36"/>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START EVENT"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-18T06:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="START FUNCTION"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-18T07:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="helper transition 11[{assigned funds are within tolerance limits}-&gt;{XOR}]"/>
+			<boolean key="noise" value="true"/>
+			<string key="lifecycle:transition" value="complete"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="start 0 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-18T08:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="helper transition 6[{XOR}-&gt;{posting was rejected due to budget overrun}]"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-18T09:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="budget is to be updated"/>
+			<boolean key="noise" value="true"/>
+			<string key="lifecycle:transition" value="complete"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="posting was rejected due to budget overrun"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-18T10:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="helper transition 2[{posting was rejected due to budget overrun}-&gt;{XOR}]"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-18T11:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="xor/and helper 7"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-18T12:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="budget is assigned"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-18T13:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="79 transition"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-18T14:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="update of overhead cost order budget"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-18T15:01:36.841+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="budget is updated"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-12-18T16:01:36.841+10:00"/>
+		</event>
+	</trace>
+</log>

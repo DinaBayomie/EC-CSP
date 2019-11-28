@@ -1,0 +1,983 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- This file has been generated with the OpenXES library. It conforms -->
+<!-- to the legacy MXML standard for log storage and management. -->
+<!-- OpenXES library version: 1.0RC7 -->
+<!-- OpenXES is available from http://www.xes-standard.org/ -->
+<WorkflowLog>
+	<Source program="XES MXML serialization" openxes.version="1.0RC7"/>
+	<Process id="XES Event Log" description="process with id XES Event Log">
+		<Data>
+			<attribute name="concept:name">XES Event Log</attribute>
+		</Data>
+		<ProcessInstance id="0" description="instance with id 0">
+			<Data>
+				<attribute name="concept:name">0</attribute>
+			</Data>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="time:timestamp">2018-07-02T09:19:00+02:00</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="concept:name">Activity A</attribute>
+				</Data>
+				<WorkflowModelElement>Activity A</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<timestamp>2018-07-02T09:19:00+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="time:timestamp">2018-07-02T09:21:00+02:00</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="concept:name">Activity C</attribute>
+				</Data>
+				<WorkflowModelElement>Activity C</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<timestamp>2018-07-02T09:21:00+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="time:timestamp">2018-07-02T09:22:00+02:00</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="concept:name">Activity E</attribute>
+				</Data>
+				<WorkflowModelElement>Activity E</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<timestamp>2018-07-02T09:22:00+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="time:timestamp">2018-07-02T09:23:00+02:00</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="concept:name">Activity D</attribute>
+				</Data>
+				<WorkflowModelElement>Activity D</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<timestamp>2018-07-02T09:23:00+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="time:timestamp">2018-07-02T09:24:00+02:00</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="concept:name">Activity G</attribute>
+				</Data>
+				<WorkflowModelElement>Activity G</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<timestamp>2018-07-02T09:24:00+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="time:timestamp">2018-07-02T09:25:00+02:00</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="concept:name">Activity H</attribute>
+				</Data>
+				<WorkflowModelElement>Activity H</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<timestamp>2018-07-02T09:25:00+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="time:timestamp">2018-07-02T09:27:00+02:00</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="concept:name">Activity B</attribute>
+				</Data>
+				<WorkflowModelElement>Activity B</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<timestamp>2018-07-02T09:27:00+02:00</timestamp>
+			</AuditTrailEntry>
+		</ProcessInstance>
+		<ProcessInstance id="1" description="instance with id 1">
+			<Data>
+				<attribute name="concept:name">1</attribute>
+			</Data>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="time:timestamp">2018-07-02T09:19:00+02:00</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="concept:name">Activity A</attribute>
+				</Data>
+				<WorkflowModelElement>Activity A</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<timestamp>2018-07-02T09:19:00+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="time:timestamp">2018-07-02T09:21:00+02:00</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="concept:name">Activity C</attribute>
+				</Data>
+				<WorkflowModelElement>Activity C</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<timestamp>2018-07-02T09:21:00+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="time:timestamp">2018-07-02T09:22:00+02:00</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="concept:name">Activity H</attribute>
+				</Data>
+				<WorkflowModelElement>Activity H</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<timestamp>2018-07-02T09:22:00+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="time:timestamp">2018-07-02T09:23:00+02:00</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="concept:name">Activity E</attribute>
+				</Data>
+				<WorkflowModelElement>Activity E</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<timestamp>2018-07-02T09:23:00+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="time:timestamp">2018-07-02T09:24:00+02:00</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="concept:name">Activity D</attribute>
+				</Data>
+				<WorkflowModelElement>Activity D</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<timestamp>2018-07-02T09:24:00+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="time:timestamp">2018-07-02T09:25:00+02:00</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="concept:name">Activity G</attribute>
+				</Data>
+				<WorkflowModelElement>Activity G</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<timestamp>2018-07-02T09:25:00+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="time:timestamp">2018-07-02T09:27:00+02:00</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="concept:name">Activity B</attribute>
+				</Data>
+				<WorkflowModelElement>Activity B</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<timestamp>2018-07-02T09:27:00+02:00</timestamp>
+			</AuditTrailEntry>
+		</ProcessInstance>
+		<ProcessInstance id="2" description="instance with id 2">
+			<Data>
+				<attribute name="concept:name">2</attribute>
+			</Data>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="time:timestamp">2018-07-02T09:20:00+02:00</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="concept:name">Activity A</attribute>
+				</Data>
+				<WorkflowModelElement>Activity A</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<timestamp>2018-07-02T09:20:00+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="time:timestamp">2018-07-02T09:22:00+02:00</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="concept:name">Activity C</attribute>
+				</Data>
+				<WorkflowModelElement>Activity C</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<timestamp>2018-07-02T09:22:00+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="time:timestamp">2018-07-02T09:23:00+02:00</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="concept:name">Activity H</attribute>
+				</Data>
+				<WorkflowModelElement>Activity H</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<timestamp>2018-07-02T09:23:00+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="time:timestamp">2018-07-02T09:24:00+02:00</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="concept:name">Activity E</attribute>
+				</Data>
+				<WorkflowModelElement>Activity E</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<timestamp>2018-07-02T09:24:00+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="time:timestamp">2018-07-02T09:25:00+02:00</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="concept:name">Activity F</attribute>
+				</Data>
+				<WorkflowModelElement>Activity F</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<timestamp>2018-07-02T09:25:00+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="time:timestamp">2018-07-02T09:26:00+02:00</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="concept:name">Activity E</attribute>
+				</Data>
+				<WorkflowModelElement>Activity E</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<timestamp>2018-07-02T09:26:00+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="time:timestamp">2018-07-02T09:27:00+02:00</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="concept:name">Activity F</attribute>
+				</Data>
+				<WorkflowModelElement>Activity F</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<timestamp>2018-07-02T09:27:00+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="time:timestamp">2018-07-02T09:28:00+02:00</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="concept:name">Activity E</attribute>
+				</Data>
+				<WorkflowModelElement>Activity E</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<timestamp>2018-07-02T09:28:00+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="time:timestamp">2018-07-02T09:29:00+02:00</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="concept:name">Activity D</attribute>
+				</Data>
+				<WorkflowModelElement>Activity D</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<timestamp>2018-07-02T09:29:00+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="time:timestamp">2018-07-02T09:30:00+02:00</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="concept:name">Activity G</attribute>
+				</Data>
+				<WorkflowModelElement>Activity G</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<timestamp>2018-07-02T09:30:00+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="time:timestamp">2018-07-02T09:32:00+02:00</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="concept:name">Activity B</attribute>
+				</Data>
+				<WorkflowModelElement>Activity B</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<timestamp>2018-07-02T09:32:00+02:00</timestamp>
+			</AuditTrailEntry>
+		</ProcessInstance>
+		<ProcessInstance id="3" description="instance with id 3">
+			<Data>
+				<attribute name="concept:name">3</attribute>
+			</Data>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="time:timestamp">2018-07-02T09:21:00+02:00</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="concept:name">Activity A</attribute>
+				</Data>
+				<WorkflowModelElement>Activity A</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<timestamp>2018-07-02T09:21:00+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="time:timestamp">2018-07-02T09:23:00+02:00</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="concept:name">Activity C</attribute>
+				</Data>
+				<WorkflowModelElement>Activity C</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<timestamp>2018-07-02T09:23:00+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="time:timestamp">2018-07-02T09:24:00+02:00</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="concept:name">Activity E</attribute>
+				</Data>
+				<WorkflowModelElement>Activity E</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<timestamp>2018-07-02T09:24:00+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="time:timestamp">2018-07-02T09:25:00+02:00</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="concept:name">Activity F</attribute>
+				</Data>
+				<WorkflowModelElement>Activity F</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<timestamp>2018-07-02T09:25:00+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="time:timestamp">2018-07-02T09:26:00+02:00</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="concept:name">Activity E</attribute>
+				</Data>
+				<WorkflowModelElement>Activity E</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<timestamp>2018-07-02T09:26:00+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="time:timestamp">2018-07-02T09:27:00+02:00</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="concept:name">Activity F</attribute>
+				</Data>
+				<WorkflowModelElement>Activity F</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<timestamp>2018-07-02T09:27:00+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="time:timestamp">2018-07-02T09:28:00+02:00</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="concept:name">Activity E</attribute>
+				</Data>
+				<WorkflowModelElement>Activity E</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<timestamp>2018-07-02T09:28:00+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="time:timestamp">2018-07-02T09:29:00+02:00</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="concept:name">Activity D</attribute>
+				</Data>
+				<WorkflowModelElement>Activity D</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<timestamp>2018-07-02T09:29:00+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="time:timestamp">2018-07-02T09:30:00+02:00</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="concept:name">Activity H</attribute>
+				</Data>
+				<WorkflowModelElement>Activity H</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<timestamp>2018-07-02T09:30:00+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="time:timestamp">2018-07-02T09:31:00+02:00</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="concept:name">Activity G</attribute>
+				</Data>
+				<WorkflowModelElement>Activity G</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<timestamp>2018-07-02T09:31:00+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="time:timestamp">2018-07-02T09:33:00+02:00</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="concept:name">Activity B</attribute>
+				</Data>
+				<WorkflowModelElement>Activity B</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<timestamp>2018-07-02T09:33:00+02:00</timestamp>
+			</AuditTrailEntry>
+		</ProcessInstance>
+		<ProcessInstance id="4" description="instance with id 4">
+			<Data>
+				<attribute name="concept:name">4</attribute>
+			</Data>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="time:timestamp">2018-07-02T09:23:00+02:00</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="concept:name">Activity A</attribute>
+				</Data>
+				<WorkflowModelElement>Activity A</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<timestamp>2018-07-02T09:23:00+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="time:timestamp">2018-07-02T09:25:00+02:00</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="concept:name">Activity H</attribute>
+				</Data>
+				<WorkflowModelElement>Activity H</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<timestamp>2018-07-02T09:25:00+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="time:timestamp">2018-07-02T09:26:00+02:00</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="concept:name">Activity C</attribute>
+				</Data>
+				<WorkflowModelElement>Activity C</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<timestamp>2018-07-02T09:26:00+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="time:timestamp">2018-07-02T09:27:00+02:00</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="concept:name">Activity E</attribute>
+				</Data>
+				<WorkflowModelElement>Activity E</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<timestamp>2018-07-02T09:27:00+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="time:timestamp">2018-07-02T09:28:00+02:00</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="concept:name">Activity D</attribute>
+				</Data>
+				<WorkflowModelElement>Activity D</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<timestamp>2018-07-02T09:28:00+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="time:timestamp">2018-07-02T09:29:00+02:00</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="concept:name">Activity G</attribute>
+				</Data>
+				<WorkflowModelElement>Activity G</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<timestamp>2018-07-02T09:29:00+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="time:timestamp">2018-07-02T09:31:00+02:00</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="concept:name">Activity B</attribute>
+				</Data>
+				<WorkflowModelElement>Activity B</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<timestamp>2018-07-02T09:31:00+02:00</timestamp>
+			</AuditTrailEntry>
+		</ProcessInstance>
+		<ProcessInstance id="5" description="instance with id 5">
+			<Data>
+				<attribute name="concept:name">5</attribute>
+			</Data>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="time:timestamp">2018-07-02T09:24:00+02:00</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="concept:name">Activity A</attribute>
+				</Data>
+				<WorkflowModelElement>Activity A</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<timestamp>2018-07-02T09:24:00+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="time:timestamp">2018-07-02T09:26:00+02:00</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="concept:name">Activity H</attribute>
+				</Data>
+				<WorkflowModelElement>Activity H</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<timestamp>2018-07-02T09:26:00+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="time:timestamp">2018-07-02T09:27:00+02:00</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="concept:name">Activity C</attribute>
+				</Data>
+				<WorkflowModelElement>Activity C</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<timestamp>2018-07-02T09:27:00+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="time:timestamp">2018-07-02T09:28:00+02:00</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="concept:name">Activity E</attribute>
+				</Data>
+				<WorkflowModelElement>Activity E</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<timestamp>2018-07-02T09:28:00+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="time:timestamp">2018-07-02T09:29:00+02:00</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="concept:name">Activity F</attribute>
+				</Data>
+				<WorkflowModelElement>Activity F</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<timestamp>2018-07-02T09:29:00+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="time:timestamp">2018-07-02T09:30:00+02:00</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="concept:name">Activity E</attribute>
+				</Data>
+				<WorkflowModelElement>Activity E</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<timestamp>2018-07-02T09:30:00+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="time:timestamp">2018-07-02T09:31:00+02:00</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="concept:name">Activity D</attribute>
+				</Data>
+				<WorkflowModelElement>Activity D</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<timestamp>2018-07-02T09:31:00+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="time:timestamp">2018-07-02T09:32:00+02:00</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="concept:name">Activity G</attribute>
+				</Data>
+				<WorkflowModelElement>Activity G</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<timestamp>2018-07-02T09:32:00+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="time:timestamp">2018-07-02T09:34:00+02:00</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="concept:name">Activity B</attribute>
+				</Data>
+				<WorkflowModelElement>Activity B</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<timestamp>2018-07-02T09:34:00+02:00</timestamp>
+			</AuditTrailEntry>
+		</ProcessInstance>
+		<ProcessInstance id="6" description="instance with id 6">
+			<Data>
+				<attribute name="concept:name">6</attribute>
+			</Data>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="time:timestamp">2018-07-02T09:25:00+02:00</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="concept:name">Activity A</attribute>
+				</Data>
+				<WorkflowModelElement>Activity A</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<timestamp>2018-07-02T09:25:00+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="time:timestamp">2018-07-02T09:27:00+02:00</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="concept:name">Activity C</attribute>
+				</Data>
+				<WorkflowModelElement>Activity C</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<timestamp>2018-07-02T09:27:00+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="time:timestamp">2018-07-02T09:28:00+02:00</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="concept:name">Activity E</attribute>
+				</Data>
+				<WorkflowModelElement>Activity E</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<timestamp>2018-07-02T09:28:00+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="time:timestamp">2018-07-02T09:29:00+02:00</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="concept:name">Activity D</attribute>
+				</Data>
+				<WorkflowModelElement>Activity D</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<timestamp>2018-07-02T09:29:00+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="time:timestamp">2018-07-02T09:30:00+02:00</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="concept:name">Activity G</attribute>
+				</Data>
+				<WorkflowModelElement>Activity G</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<timestamp>2018-07-02T09:30:00+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="time:timestamp">2018-07-02T09:31:00+02:00</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="concept:name">Activity H</attribute>
+				</Data>
+				<WorkflowModelElement>Activity H</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<timestamp>2018-07-02T09:31:00+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="time:timestamp">2018-07-02T09:33:00+02:00</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="concept:name">Activity B</attribute>
+				</Data>
+				<WorkflowModelElement>Activity B</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<timestamp>2018-07-02T09:33:00+02:00</timestamp>
+			</AuditTrailEntry>
+		</ProcessInstance>
+		<ProcessInstance id="7" description="instance with id 7">
+			<Data>
+				<attribute name="concept:name">7</attribute>
+			</Data>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="time:timestamp">2018-07-02T09:25:00+02:00</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="concept:name">Activity A</attribute>
+				</Data>
+				<WorkflowModelElement>Activity A</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<timestamp>2018-07-02T09:25:00+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="time:timestamp">2018-07-02T09:27:00+02:00</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="concept:name">Activity C</attribute>
+				</Data>
+				<WorkflowModelElement>Activity C</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<timestamp>2018-07-02T09:27:00+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="time:timestamp">2018-07-02T09:28:00+02:00</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="concept:name">Activity E</attribute>
+				</Data>
+				<WorkflowModelElement>Activity E</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<timestamp>2018-07-02T09:28:00+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="time:timestamp">2018-07-02T09:29:00+02:00</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="concept:name">Activity H</attribute>
+				</Data>
+				<WorkflowModelElement>Activity H</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<timestamp>2018-07-02T09:29:00+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="time:timestamp">2018-07-02T09:30:00+02:00</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="concept:name">Activity F</attribute>
+				</Data>
+				<WorkflowModelElement>Activity F</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<timestamp>2018-07-02T09:30:00+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="time:timestamp">2018-07-02T09:31:00+02:00</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="concept:name">Activity E</attribute>
+				</Data>
+				<WorkflowModelElement>Activity E</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<timestamp>2018-07-02T09:31:00+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="time:timestamp">2018-07-02T09:32:00+02:00</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="concept:name">Activity F</attribute>
+				</Data>
+				<WorkflowModelElement>Activity F</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<timestamp>2018-07-02T09:32:00+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="time:timestamp">2018-07-02T09:33:00+02:00</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="concept:name">Activity E</attribute>
+				</Data>
+				<WorkflowModelElement>Activity E</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<timestamp>2018-07-02T09:33:00+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="time:timestamp">2018-07-02T09:34:00+02:00</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="concept:name">Activity F</attribute>
+				</Data>
+				<WorkflowModelElement>Activity F</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<timestamp>2018-07-02T09:34:00+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="time:timestamp">2018-07-02T09:35:00+02:00</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="concept:name">Activity E</attribute>
+				</Data>
+				<WorkflowModelElement>Activity E</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<timestamp>2018-07-02T09:35:00+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="time:timestamp">2018-07-02T09:36:00+02:00</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="concept:name">Activity D</attribute>
+				</Data>
+				<WorkflowModelElement>Activity D</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<timestamp>2018-07-02T09:36:00+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="time:timestamp">2018-07-02T09:37:00+02:00</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="concept:name">Activity G</attribute>
+				</Data>
+				<WorkflowModelElement>Activity G</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<timestamp>2018-07-02T09:37:00+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="time:timestamp">2018-07-02T09:39:00+02:00</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="concept:name">Activity B</attribute>
+				</Data>
+				<WorkflowModelElement>Activity B</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<timestamp>2018-07-02T09:39:00+02:00</timestamp>
+			</AuditTrailEntry>
+		</ProcessInstance>
+		<ProcessInstance id="8" description="instance with id 8">
+			<Data>
+				<attribute name="concept:name">8</attribute>
+			</Data>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="time:timestamp">2018-07-02T09:27:00+02:00</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="concept:name">Activity A</attribute>
+				</Data>
+				<WorkflowModelElement>Activity A</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<timestamp>2018-07-02T09:27:00+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="time:timestamp">2018-07-02T09:29:00+02:00</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="concept:name">Activity H</attribute>
+				</Data>
+				<WorkflowModelElement>Activity H</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<timestamp>2018-07-02T09:29:00+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="time:timestamp">2018-07-02T09:30:00+02:00</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="concept:name">Activity C</attribute>
+				</Data>
+				<WorkflowModelElement>Activity C</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<timestamp>2018-07-02T09:30:00+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="time:timestamp">2018-07-02T09:31:00+02:00</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="concept:name">Activity E</attribute>
+				</Data>
+				<WorkflowModelElement>Activity E</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<timestamp>2018-07-02T09:31:00+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="time:timestamp">2018-07-02T09:32:00+02:00</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="concept:name">Activity D</attribute>
+				</Data>
+				<WorkflowModelElement>Activity D</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<timestamp>2018-07-02T09:32:00+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="time:timestamp">2018-07-02T09:33:00+02:00</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="concept:name">Activity G</attribute>
+				</Data>
+				<WorkflowModelElement>Activity G</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<timestamp>2018-07-02T09:33:00+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="time:timestamp">2018-07-02T09:35:00+02:00</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="concept:name">Activity B</attribute>
+				</Data>
+				<WorkflowModelElement>Activity B</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<timestamp>2018-07-02T09:35:00+02:00</timestamp>
+			</AuditTrailEntry>
+		</ProcessInstance>
+		<ProcessInstance id="9" description="instance with id 9">
+			<Data>
+				<attribute name="concept:name">9</attribute>
+			</Data>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="time:timestamp">2018-07-02T09:28:00+02:00</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="concept:name">Activity A</attribute>
+				</Data>
+				<WorkflowModelElement>Activity A</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<timestamp>2018-07-02T09:28:00+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="time:timestamp">2018-07-02T09:30:00+02:00</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="concept:name">Activity C</attribute>
+				</Data>
+				<WorkflowModelElement>Activity C</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<timestamp>2018-07-02T09:30:00+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="time:timestamp">2018-07-02T09:31:00+02:00</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="concept:name">Activity E</attribute>
+				</Data>
+				<WorkflowModelElement>Activity E</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<timestamp>2018-07-02T09:31:00+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="time:timestamp">2018-07-02T09:32:00+02:00</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="concept:name">Activity H</attribute>
+				</Data>
+				<WorkflowModelElement>Activity H</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<timestamp>2018-07-02T09:32:00+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="time:timestamp">2018-07-02T09:33:00+02:00</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="concept:name">Activity F</attribute>
+				</Data>
+				<WorkflowModelElement>Activity F</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<timestamp>2018-07-02T09:33:00+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="time:timestamp">2018-07-02T09:34:00+02:00</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="concept:name">Activity E</attribute>
+				</Data>
+				<WorkflowModelElement>Activity E</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<timestamp>2018-07-02T09:34:00+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="time:timestamp">2018-07-02T09:35:00+02:00</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="concept:name">Activity F</attribute>
+				</Data>
+				<WorkflowModelElement>Activity F</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<timestamp>2018-07-02T09:35:00+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="time:timestamp">2018-07-02T09:36:00+02:00</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="concept:name">Activity E</attribute>
+				</Data>
+				<WorkflowModelElement>Activity E</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<timestamp>2018-07-02T09:36:00+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="time:timestamp">2018-07-02T09:37:00+02:00</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="concept:name">Activity F</attribute>
+				</Data>
+				<WorkflowModelElement>Activity F</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<timestamp>2018-07-02T09:37:00+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="time:timestamp">2018-07-02T09:38:00+02:00</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="concept:name">Activity E</attribute>
+				</Data>
+				<WorkflowModelElement>Activity E</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<timestamp>2018-07-02T09:38:00+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="time:timestamp">2018-07-02T09:39:00+02:00</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="concept:name">Activity D</attribute>
+				</Data>
+				<WorkflowModelElement>Activity D</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<timestamp>2018-07-02T09:39:00+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="time:timestamp">2018-07-02T09:40:00+02:00</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="concept:name">Activity G</attribute>
+				</Data>
+				<WorkflowModelElement>Activity G</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<timestamp>2018-07-02T09:40:00+02:00</timestamp>
+			</AuditTrailEntry>
+			<AuditTrailEntry>
+				<Data>
+					<attribute name="time:timestamp">2018-07-02T09:42:00+02:00</attribute>
+					<attribute name="lifecycle:transition">complete</attribute>
+					<attribute name="concept:name">Activity B</attribute>
+				</Data>
+				<WorkflowModelElement>Activity B</WorkflowModelElement>
+				<EventType>complete</EventType>
+				<timestamp>2018-07-02T09:42:00+02:00</timestamp>
+			</AuditTrailEntry>
+		</ProcessInstance>
+	</Process>
+</WorkflowLog>

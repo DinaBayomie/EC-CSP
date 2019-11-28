@@ -1,0 +1,1045 @@
+activity,timestamp
+START EVENT,63584562307550
+START EVENT,63584562307550
+START FUNCTION,63584565907550
+START FUNCTION,63584565907550
+helper transition 10[{XOR}->{XOR}],63584569507550
+helper transition 10[{XOR}->{XOR}],63584569507550
+helper transition 6[{XOR}->{retirement for lva to be carried out}],63584573107550
+helper transition 6[{XOR}->{retirement for lva to be carried out}],63584573107550
+retirement for lva to be carried out,63584576707550
+retirement for lva to be carried out,63584576707550
+helper transition 5[{retirement for lva to be carried out}->{XOR}],63584580307550
+helper transition 5[{retirement for lva to be carried out}->{XOR}],63584580307550
+retirement,63584583907550
+retirement,63584583907550
+helper transition 8[{XOR}->{retirement was posted and checked}],63584587507550
+helper transition 8[{XOR}->{retirement was posted and checked}],63584587507550
+retirement was posted and checked,63584591107550
+retirement was posted and checked,63584591107550
+START EVENT,63584691907550
+START EVENT,63584691907550
+START FUNCTION,63584695507550
+START FUNCTION,63584695507550
+helper transition 10[{XOR}->{XOR}],63584699107550
+helper transition 10[{XOR}->{XOR}],63584699107550
+helper transition 1[{XOR}->{retirements to be entered}],63584702707550
+helper transition 1[{XOR}->{retirements to be entered}],63584702707550
+retirements to be entered,63584706307550
+retirements to be entered,63584706307550
+helper transition 0[{retirements to be entered}->{XOR}],63584709907550
+helper transition 0[{retirements to be entered}->{XOR}],63584709907550
+retirement,63584713507550
+retirement,63584713507550
+helper transition 8[{XOR}->{retirement was posted and checked}],63584717107550
+helper transition 8[{XOR}->{retirement was posted and checked}],63584717107550
+retirement was posted and checked,63584720707550
+retirement was posted and checked,63584720707550
+START EVENT,63584853907550
+START EVENT,63584853907550
+START FUNCTION,63584857507550
+START FUNCTION,63584857507550
+xor/and helper 3,63584861107550
+xor/and helper 3,63584861107550
+start 1 transition,63584864707550
+start 1 transition,63584864707550
+worklist was created,63584868307550
+worklist was created,63584868307550
+start 2 transition,63584871907550
+start 2 transition,63584871907550
+plant section was shut down,63584875507550
+plant section was shut down,63584875507550
+plant section was sold,63584879107550
+plant section was sold,63584879107550
+fixed assets should be posted jointly,63584882707550
+fixed assets should be posted jointly,63584882707550
+0 transition,63584886307550
+0 transition,63584886307550
+9 transition,63584889907550
+9 transition,63584889907550
+mass retirement,63584893507550
+mass retirement,63584893507550
+helper transition 8[{XOR}->{retirement was posted and checked}],63584897107550
+helper transition 8[{XOR}->{retirement was posted and checked}],63584897107550
+retirement was posted and checked,63584900707550
+retirement was posted and checked,63584900707550
+START EVENT,63585105907550
+START EVENT,63585105907550
+START FUNCTION,63585109507550
+START FUNCTION,63585109507550
+xor/and helper 3,63585113107550
+xor/and helper 3,63585113107550
+start 1 transition,63585116707550
+start 1 transition,63585116707550
+worklist was created,63585120307550
+worklist was created,63585120307550
+start 2 transition,63585123907550
+start 2 transition,63585123907550
+plant section was shut down,63585127507550
+plant section was shut down,63585127507550
+fixed assets should be posted jointly,63585131107550
+fixed assets should be posted jointly,63585131107550
+plant section was sold,63585134707550
+plant section was sold,63585134707550
+0 transition,63585138307550
+0 transition,63585138307550
+9 transition,63585141907550
+9 transition,63585141907550
+mass retirement,63585145507550
+mass retirement,63585145507550
+helper transition 8[{XOR}->{retirement was posted and checked}],63585149107550
+helper transition 8[{XOR}->{retirement was posted and checked}],63585149107550
+retirement was posted and checked,63585152707550
+retirement was posted and checked,63585152707550
+START EVENT,63585307507550
+START EVENT,63585307507550
+START FUNCTION,63585311107550
+START FUNCTION,63585311107550
+xor/and helper 3,63585314707550
+xor/and helper 3,63585314707550
+start 1 transition,63585318307550
+start 1 transition,63585318307550
+worklist was created,63585321907550
+worklist was created,63585321907550
+start 2 transition,63585325507550
+start 2 transition,63585325507550
+plant section was sold,63585329107550
+plant section was sold,63585329107550
+plant section was shut down,63585332707550
+plant section was shut down,63585332707550
+fixed assets should be posted jointly,63585336307550
+fixed assets should be posted jointly,63585336307550
+0 transition,63585339907550
+0 transition,63585339907550
+9 transition,63585343507550
+9 transition,63585343507550
+mass retirement,63585347107550
+mass retirement,63585347107550
+helper transition 8[{XOR}->{retirement was posted and checked}],63585350707550
+helper transition 8[{XOR}->{retirement was posted and checked}],63585350707550
+retirement was posted and checked,63585354307550
+retirement was posted and checked,63585354307550
+START EVENT,63585458707550
+START EVENT,63585458707550
+START FUNCTION,63585462307550
+START FUNCTION,63585462307550
+xor/and helper 3,63585465907550
+xor/and helper 3,63585465907550
+start 1 transition,63585469507550
+start 1 transition,63585469507550
+worklist was created,63585473107550
+worklist was created,63585473107550
+start 2 transition,63585476707550
+start 2 transition,63585476707550
+plant section was sold,63585480307550
+plant section was sold,63585480307550
+fixed assets should be posted jointly,63585483907550
+fixed assets should be posted jointly,63585483907550
+plant section was shut down,63585487507550
+plant section was shut down,63585487507550
+0 transition,63585491107550
+0 transition,63585491107550
+9 transition,63585494707550
+9 transition,63585494707550
+mass retirement,63585498307550
+mass retirement,63585498307550
+helper transition 8[{XOR}->{retirement was posted and checked}],63585501907550
+helper transition 8[{XOR}->{retirement was posted and checked}],63585501907550
+retirement was posted and checked,63585505507550
+retirement was posted and checked,63585505507550
+START EVENT,63585660307550
+START EVENT,63585660307550
+START FUNCTION,63585663907550
+START FUNCTION,63585663907550
+xor/and helper 3,63585667507550
+xor/and helper 3,63585667507550
+start 1 transition,63585671107550
+start 1 transition,63585671107550
+worklist was created,63585674707550
+worklist was created,63585674707550
+start 2 transition,63585678307550
+start 2 transition,63585678307550
+fixed assets should be posted jointly,63585681907550
+fixed assets should be posted jointly,63585681907550
+plant section was shut down,63585685507550
+plant section was shut down,63585685507550
+plant section was sold,63585689107550
+plant section was sold,63585689107550
+0 transition,63585692707550
+0 transition,63585692707550
+9 transition,63585696307550
+9 transition,63585696307550
+mass retirement,63585699907550
+mass retirement,63585699907550
+helper transition 8[{XOR}->{retirement was posted and checked}],63585703507550
+helper transition 8[{XOR}->{retirement was posted and checked}],63585703507550
+retirement was posted and checked,63585707107550
+retirement was posted and checked,63585707107550
+START EVENT,63585861907550
+START EVENT,63585861907550
+START FUNCTION,63585865507550
+START FUNCTION,63585865507550
+xor/and helper 3,63585869107550
+xor/and helper 3,63585869107550
+start 1 transition,63585872707550
+start 1 transition,63585872707550
+worklist was created,63585876307550
+worklist was created,63585876307550
+start 2 transition,63585879907550
+start 2 transition,63585879907550
+fixed assets should be posted jointly,63585883507550
+fixed assets should be posted jointly,63585883507550
+plant section was sold,63585887107550
+plant section was sold,63585887107550
+plant section was shut down,63585890707550
+plant section was shut down,63585890707550
+0 transition,63585894307550
+0 transition,63585894307550
+9 transition,63585897907550
+9 transition,63585897907550
+mass retirement,63585901507550
+mass retirement,63585901507550
+helper transition 8[{XOR}->{retirement was posted and checked}],63585905107550
+helper transition 8[{XOR}->{retirement was posted and checked}],63585905107550
+retirement was posted and checked,63585908707550
+retirement was posted and checked,63585908707550
+START EVENT,63586063507550
+START EVENT,63586063507550
+START FUNCTION,63586067107550
+START FUNCTION,63586067107550
+xor/and helper 3,63586070707550
+xor/and helper 3,63586070707550
+start 1 transition,63586074307550
+start 1 transition,63586074307550
+start 2 transition,63586077907550
+start 2 transition,63586077907550
+plant section was shut down,63586081507550
+plant section was shut down,63586081507550
+worklist was created,63586085107550
+worklist was created,63586085107550
+plant section was sold,63586088707550
+plant section was sold,63586088707550
+fixed assets should be posted jointly,63586092307550
+fixed assets should be posted jointly,63586092307550
+0 transition,63586095907550
+0 transition,63586095907550
+9 transition,63586099507550
+9 transition,63586099507550
+mass retirement,63586103107550
+mass retirement,63586103107550
+helper transition 8[{XOR}->{retirement was posted and checked}],63586106707550
+helper transition 8[{XOR}->{retirement was posted and checked}],63586106707550
+retirement was posted and checked,63586110307550
+retirement was posted and checked,63586110307550
+START EVENT,63586214707550
+START EVENT,63586214707550
+START FUNCTION,63586218307550
+START FUNCTION,63586218307550
+xor/and helper 3,63586221907550
+xor/and helper 3,63586221907550
+start 1 transition,63586225507550
+start 1 transition,63586225507550
+start 2 transition,63586229107550
+start 2 transition,63586229107550
+plant section was shut down,63586232707550
+plant section was shut down,63586232707550
+worklist was created,63586236307550
+worklist was created,63586236307550
+fixed assets should be posted jointly,63586239907550
+fixed assets should be posted jointly,63586239907550
+plant section was sold,63586243507550
+plant section was sold,63586243507550
+0 transition,63586247107550
+0 transition,63586247107550
+9 transition,63586250707550
+9 transition,63586250707550
+mass retirement,63586254307550
+mass retirement,63586254307550
+helper transition 8[{XOR}->{retirement was posted and checked}],63586257907550
+helper transition 8[{XOR}->{retirement was posted and checked}],63586257907550
+retirement was posted and checked,63586261507550
+retirement was posted and checked,63586261507550
+START EVENT,63586365907550
+START EVENT,63586365907550
+START FUNCTION,63586369507550
+START FUNCTION,63586369507550
+xor/and helper 3,63586373107550
+xor/and helper 3,63586373107550
+start 1 transition,63586376707550
+start 1 transition,63586376707550
+start 2 transition,63586380307550
+start 2 transition,63586380307550
+plant section was shut down,63586383907550
+plant section was shut down,63586383907550
+plant section was sold,63586387507550
+plant section was sold,63586387507550
+worklist was created,63586391107550
+worklist was created,63586391107550
+fixed assets should be posted jointly,63586394707550
+fixed assets should be posted jointly,63586394707550
+0 transition,63586398307550
+0 transition,63586398307550
+9 transition,63586401907550
+9 transition,63586401907550
+mass retirement,63586405507550
+mass retirement,63586405507550
+helper transition 8[{XOR}->{retirement was posted and checked}],63586409107550
+helper transition 8[{XOR}->{retirement was posted and checked}],63586409107550
+retirement was posted and checked,63586412707550
+retirement was posted and checked,63586412707550
+START EVENT,63586617907550
+START EVENT,63586617907550
+START FUNCTION,63586621507550
+START FUNCTION,63586621507550
+xor/and helper 3,63586625107550
+xor/and helper 3,63586625107550
+start 1 transition,63586628707550
+start 1 transition,63586628707550
+start 2 transition,63586632307550
+start 2 transition,63586632307550
+plant section was shut down,63586635907550
+plant section was shut down,63586635907550
+plant section was sold,63586639507550
+plant section was sold,63586639507550
+fixed assets should be posted jointly,63586643107550
+fixed assets should be posted jointly,63586643107550
+worklist was created,63586646707550
+worklist was created,63586646707550
+0 transition,63586650307550
+0 transition,63586650307550
+9 transition,63586653907550
+9 transition,63586653907550
+mass retirement,63586657507550
+mass retirement,63586657507550
+helper transition 8[{XOR}->{retirement was posted and checked}],63586661107550
+helper transition 8[{XOR}->{retirement was posted and checked}],63586661107550
+retirement was posted and checked,63586664707550
+retirement was posted and checked,63586664707550
+START EVENT,63586819507550
+START EVENT,63586819507550
+START FUNCTION,63586823107550
+START FUNCTION,63586823107550
+xor/and helper 3,63586826707550
+xor/and helper 3,63586826707550
+start 1 transition,63586830307550
+start 1 transition,63586830307550
+start 2 transition,63586833907550
+start 2 transition,63586833907550
+plant section was shut down,63586837507550
+plant section was shut down,63586837507550
+plant section was sold,63586841107550
+plant section was sold,63586841107550
+fixed assets should be posted jointly,63586844707550
+fixed assets should be posted jointly,63586844707550
+0 transition,63586848307550
+0 transition,63586848307550
+worklist was created,63586851907550
+worklist was created,63586851907550
+9 transition,63586855507550
+9 transition,63586855507550
+mass retirement,63586859107550
+mass retirement,63586859107550
+helper transition 8[{XOR}->{retirement was posted and checked}],63586862707550
+helper transition 8[{XOR}->{retirement was posted and checked}],63586862707550
+retirement was posted and checked,63586866307550
+retirement was posted and checked,63586866307550
+START EVENT,63586970707550
+START EVENT,63586970707550
+START FUNCTION,63586974307550
+START FUNCTION,63586974307550
+xor/and helper 3,63586977907550
+xor/and helper 3,63586977907550
+start 1 transition,63586981507550
+start 1 transition,63586981507550
+start 2 transition,63586985107550
+start 2 transition,63586985107550
+plant section was shut down,63586988707550
+plant section was shut down,63586988707550
+fixed assets should be posted jointly,63586992307550
+fixed assets should be posted jointly,63586992307550
+worklist was created,63586995907550
+worklist was created,63586995907550
+plant section was sold,63586999507550
+plant section was sold,63586999507550
+0 transition,63587003107550
+0 transition,63587003107550
+9 transition,63587006707550
+9 transition,63587006707550
+mass retirement,63587010307550
+mass retirement,63587010307550
+helper transition 8[{XOR}->{retirement was posted and checked}],63587013907550
+helper transition 8[{XOR}->{retirement was posted and checked}],63587013907550
+retirement was posted and checked,63587017507550
+retirement was posted and checked,63587017507550
+START EVENT,63587222707550
+START EVENT,63587222707550
+START FUNCTION,63587226307550
+START FUNCTION,63587226307550
+xor/and helper 3,63587229907550
+xor/and helper 3,63587229907550
+start 1 transition,63587233507550
+start 1 transition,63587233507550
+start 2 transition,63587237107550
+start 2 transition,63587237107550
+plant section was shut down,63587240707550
+plant section was shut down,63587240707550
+fixed assets should be posted jointly,63587244307550
+fixed assets should be posted jointly,63587244307550
+plant section was sold,63587247907550
+plant section was sold,63587247907550
+worklist was created,63587251507550
+worklist was created,63587251507550
+0 transition,63587255107550
+0 transition,63587255107550
+9 transition,63587258707550
+9 transition,63587258707550
+mass retirement,63587262307550
+mass retirement,63587262307550
+helper transition 8[{XOR}->{retirement was posted and checked}],63587265907550
+helper transition 8[{XOR}->{retirement was posted and checked}],63587265907550
+retirement was posted and checked,63587269507550
+retirement was posted and checked,63587269507550
+START EVENT,63587424307550
+START EVENT,63587424307550
+START FUNCTION,63587427907550
+START FUNCTION,63587427907550
+xor/and helper 3,63587431507550
+xor/and helper 3,63587431507550
+start 1 transition,63587435107550
+start 1 transition,63587435107550
+start 2 transition,63587438707550
+start 2 transition,63587438707550
+plant section was shut down,63587442307550
+plant section was shut down,63587442307550
+fixed assets should be posted jointly,63587445907550
+fixed assets should be posted jointly,63587445907550
+plant section was sold,63587449507550
+plant section was sold,63587449507550
+0 transition,63587453107550
+0 transition,63587453107550
+worklist was created,63587456707550
+worklist was created,63587456707550
+9 transition,63587460307550
+9 transition,63587460307550
+mass retirement,63587463907550
+mass retirement,63587463907550
+helper transition 8[{XOR}->{retirement was posted and checked}],63587467507550
+helper transition 8[{XOR}->{retirement was posted and checked}],63587467507550
+retirement was posted and checked,63587471107550
+retirement was posted and checked,63587471107550
+START EVENT,63587676307550
+START EVENT,63587676307550
+START FUNCTION,63587679907550
+START FUNCTION,63587679907550
+xor/and helper 3,63587683507550
+xor/and helper 3,63587683507550
+start 1 transition,63587687107550
+start 1 transition,63587687107550
+start 2 transition,63587690707550
+start 2 transition,63587690707550
+worklist was created,63587694307550
+worklist was created,63587694307550
+plant section was shut down,63587697907550
+plant section was shut down,63587697907550
+plant section was sold,63587701507550
+plant section was sold,63587701507550
+fixed assets should be posted jointly,63587705107550
+fixed assets should be posted jointly,63587705107550
+0 transition,63587708707550
+0 transition,63587708707550
+9 transition,63587712307550
+9 transition,63587712307550
+mass retirement,63587715907550
+mass retirement,63587715907550
+helper transition 8[{XOR}->{retirement was posted and checked}],63587719507550
+helper transition 8[{XOR}->{retirement was posted and checked}],63587719507550
+retirement was posted and checked,63587723107550
+retirement was posted and checked,63587723107550
+START EVENT,63587827507550
+START EVENT,63587827507550
+START FUNCTION,63587831107550
+START FUNCTION,63587831107550
+xor/and helper 3,63587834707550
+xor/and helper 3,63587834707550
+start 1 transition,63587838307550
+start 1 transition,63587838307550
+start 2 transition,63587841907550
+start 2 transition,63587841907550
+worklist was created,63587845507550
+worklist was created,63587845507550
+plant section was shut down,63587849107550
+plant section was shut down,63587849107550
+fixed assets should be posted jointly,63587852707550
+fixed assets should be posted jointly,63587852707550
+plant section was sold,63587856307550
+plant section was sold,63587856307550
+0 transition,63587859907550
+0 transition,63587859907550
+9 transition,63587863507550
+9 transition,63587863507550
+mass retirement,63587867107550
+mass retirement,63587867107550
+helper transition 8[{XOR}->{retirement was posted and checked}],63587870707550
+helper transition 8[{XOR}->{retirement was posted and checked}],63587870707550
+retirement was posted and checked,63587874307550
+retirement was posted and checked,63587874307550
+START EVENT,63587978707550
+START EVENT,63587978707550
+START FUNCTION,63587982307550
+START FUNCTION,63587982307550
+xor/and helper 3,63587985907550
+xor/and helper 3,63587985907550
+start 1 transition,63587989507550
+start 1 transition,63587989507550
+start 2 transition,63587993107550
+start 2 transition,63587993107550
+worklist was created,63587996707550
+worklist was created,63587996707550
+plant section was sold,63588000307550
+plant section was sold,63588000307550
+plant section was shut down,63588003907550
+plant section was shut down,63588003907550
+fixed assets should be posted jointly,63588007507550
+fixed assets should be posted jointly,63588007507550
+0 transition,63588011107550
+0 transition,63588011107550
+9 transition,63588014707550
+9 transition,63588014707550
+mass retirement,63588018307550
+mass retirement,63588018307550
+helper transition 8[{XOR}->{retirement was posted and checked}],63588021907550
+helper transition 8[{XOR}->{retirement was posted and checked}],63588021907550
+retirement was posted and checked,63588025507550
+retirement was posted and checked,63588025507550
+START EVENT,63588129907550
+START EVENT,63588129907550
+START FUNCTION,63588133507550
+START FUNCTION,63588133507550
+xor/and helper 3,63588137107550
+xor/and helper 3,63588137107550
+start 1 transition,63588140707550
+start 1 transition,63588140707550
+start 2 transition,63588144307550
+start 2 transition,63588144307550
+worklist was created,63588147907550
+worklist was created,63588147907550
+plant section was sold,63588151507550
+plant section was sold,63588151507550
+fixed assets should be posted jointly,63588155107550
+fixed assets should be posted jointly,63588155107550
+plant section was shut down,63588158707550
+plant section was shut down,63588158707550
+0 transition,63588162307550
+0 transition,63588162307550
+9 transition,63588165907550
+9 transition,63588165907550
+mass retirement,63588169507550
+mass retirement,63588169507550
+helper transition 8[{XOR}->{retirement was posted and checked}],63588173107550
+helper transition 8[{XOR}->{retirement was posted and checked}],63588173107550
+retirement was posted and checked,63588176707550
+retirement was posted and checked,63588176707550
+START EVENT,63588381907550
+START EVENT,63588381907550
+START FUNCTION,63588385507550
+START FUNCTION,63588385507550
+xor/and helper 3,63588389107550
+xor/and helper 3,63588389107550
+start 1 transition,63588392707550
+start 1 transition,63588392707550
+start 2 transition,63588396307550
+start 2 transition,63588396307550
+worklist was created,63588399907550
+worklist was created,63588399907550
+fixed assets should be posted jointly,63588403507550
+fixed assets should be posted jointly,63588403507550
+plant section was shut down,63588407107550
+plant section was shut down,63588407107550
+plant section was sold,63588410707550
+plant section was sold,63588410707550
+0 transition,63588414307550
+0 transition,63588414307550
+9 transition,63588417907550
+9 transition,63588417907550
+mass retirement,63588421507550
+mass retirement,63588421507550
+helper transition 8[{XOR}->{retirement was posted and checked}],63588425107550
+helper transition 8[{XOR}->{retirement was posted and checked}],63588425107550
+retirement was posted and checked,63588428707550
+retirement was posted and checked,63588428707550
+START EVENT,63588633907550
+START EVENT,63588633907550
+START FUNCTION,63588637507550
+START FUNCTION,63588637507550
+xor/and helper 3,63588641107550
+xor/and helper 3,63588641107550
+start 1 transition,63588644707550
+start 1 transition,63588644707550
+start 2 transition,63588648307550
+start 2 transition,63588648307550
+worklist was created,63588651907550
+worklist was created,63588651907550
+fixed assets should be posted jointly,63588655507550
+fixed assets should be posted jointly,63588655507550
+plant section was sold,63588659107550
+plant section was sold,63588659107550
+plant section was shut down,63588662707550
+plant section was shut down,63588662707550
+0 transition,63588666307550
+0 transition,63588666307550
+9 transition,63588669907550
+9 transition,63588669907550
+mass retirement,63588673507550
+mass retirement,63588673507550
+helper transition 8[{XOR}->{retirement was posted and checked}],63588677107550
+helper transition 8[{XOR}->{retirement was posted and checked}],63588677107550
+retirement was posted and checked,63588680707550
+retirement was posted and checked,63588680707550
+START EVENT,63588835507550
+START EVENT,63588835507550
+START FUNCTION,63588839107550
+START FUNCTION,63588839107550
+xor/and helper 3,63588842707550
+xor/and helper 3,63588842707550
+start 1 transition,63588846307550
+start 1 transition,63588846307550
+start 2 transition,63588849907550
+start 2 transition,63588849907550
+plant section was sold,63588853507550
+plant section was sold,63588853507550
+plant section was shut down,63588857107550
+plant section was shut down,63588857107550
+worklist was created,63588860707550
+worklist was created,63588860707550
+fixed assets should be posted jointly,63588864307550
+fixed assets should be posted jointly,63588864307550
+0 transition,63588867907550
+0 transition,63588867907550
+9 transition,63588871507550
+9 transition,63588871507550
+mass retirement,63588875107550
+mass retirement,63588875107550
+helper transition 8[{XOR}->{retirement was posted and checked}],63588878707550
+helper transition 8[{XOR}->{retirement was posted and checked}],63588878707550
+retirement was posted and checked,63588882307550
+retirement was posted and checked,63588882307550
+START EVENT,63589037107550
+START EVENT,63589037107550
+START FUNCTION,63589040707550
+START FUNCTION,63589040707550
+xor/and helper 3,63589044307550
+xor/and helper 3,63589044307550
+start 1 transition,63589047907550
+start 1 transition,63589047907550
+start 2 transition,63589051507550
+start 2 transition,63589051507550
+plant section was sold,63589055107550
+plant section was sold,63589055107550
+plant section was shut down,63589058707550
+plant section was shut down,63589058707550
+fixed assets should be posted jointly,63589062307550
+fixed assets should be posted jointly,63589062307550
+worklist was created,63589065907550
+worklist was created,63589065907550
+0 transition,63589069507550
+0 transition,63589069507550
+9 transition,63589073107550
+9 transition,63589073107550
+mass retirement,63589076707550
+mass retirement,63589076707550
+helper transition 8[{XOR}->{retirement was posted and checked}],63589080307550
+helper transition 8[{XOR}->{retirement was posted and checked}],63589080307550
+retirement was posted and checked,63589083907550
+retirement was posted and checked,63589083907550
+START EVENT,63589289107550
+START EVENT,63589289107550
+START FUNCTION,63589292707550
+START FUNCTION,63589292707550
+xor/and helper 3,63589296307550
+xor/and helper 3,63589296307550
+start 1 transition,63589299907550
+start 1 transition,63589299907550
+start 2 transition,63589303507550
+start 2 transition,63589303507550
+plant section was sold,63589307107550
+plant section was sold,63589307107550
+plant section was shut down,63589310707550
+plant section was shut down,63589310707550
+fixed assets should be posted jointly,63589314307550
+fixed assets should be posted jointly,63589314307550
+0 transition,63589317907550
+0 transition,63589317907550
+worklist was created,63589321507550
+worklist was created,63589321507550
+9 transition,63589325107550
+9 transition,63589325107550
+mass retirement,63589328707550
+mass retirement,63589328707550
+helper transition 8[{XOR}->{retirement was posted and checked}],63589332307550
+helper transition 8[{XOR}->{retirement was posted and checked}],63589332307550
+retirement was posted and checked,63589335907550
+retirement was posted and checked,63589335907550
+START EVENT,63589440307550
+START EVENT,63589440307550
+START FUNCTION,63589443907550
+START FUNCTION,63589443907550
+xor/and helper 3,63589447507550
+xor/and helper 3,63589447507550
+start 1 transition,63589451107550
+start 1 transition,63589451107550
+start 2 transition,63589454707550
+start 2 transition,63589454707550
+plant section was sold,63589458307550
+plant section was sold,63589458307550
+worklist was created,63589461907550
+worklist was created,63589461907550
+plant section was shut down,63589465507550
+plant section was shut down,63589465507550
+fixed assets should be posted jointly,63589469107550
+fixed assets should be posted jointly,63589469107550
+0 transition,63589472707550
+0 transition,63589472707550
+9 transition,63589476307550
+9 transition,63589476307550
+mass retirement,63589479907550
+mass retirement,63589479907550
+helper transition 8[{XOR}->{retirement was posted and checked}],63589483507550
+helper transition 8[{XOR}->{retirement was posted and checked}],63589483507550
+retirement was posted and checked,63589487107550
+retirement was posted and checked,63589487107550
+START EVENT,63589641907550
+START EVENT,63589641907550
+START FUNCTION,63589645507550
+START FUNCTION,63589645507550
+xor/and helper 3,63589649107550
+xor/and helper 3,63589649107550
+start 1 transition,63589652707550
+start 1 transition,63589652707550
+start 2 transition,63589656307550
+start 2 transition,63589656307550
+plant section was sold,63589659907550
+plant section was sold,63589659907550
+worklist was created,63589663507550
+worklist was created,63589663507550
+fixed assets should be posted jointly,63589667107550
+fixed assets should be posted jointly,63589667107550
+plant section was shut down,63589670707550
+plant section was shut down,63589670707550
+0 transition,63589674307550
+0 transition,63589674307550
+9 transition,63589677907550
+9 transition,63589677907550
+mass retirement,63589681507550
+mass retirement,63589681507550
+helper transition 8[{XOR}->{retirement was posted and checked}],63589685107550
+helper transition 8[{XOR}->{retirement was posted and checked}],63589685107550
+retirement was posted and checked,63589688707550
+retirement was posted and checked,63589688707550
+START EVENT,63589843507550
+START EVENT,63589843507550
+START FUNCTION,63589847107550
+START FUNCTION,63589847107550
+xor/and helper 3,63589850707550
+xor/and helper 3,63589850707550
+start 1 transition,63589854307550
+start 1 transition,63589854307550
+start 2 transition,63589857907550
+start 2 transition,63589857907550
+plant section was sold,63589861507550
+plant section was sold,63589861507550
+fixed assets should be posted jointly,63589865107550
+fixed assets should be posted jointly,63589865107550
+plant section was shut down,63589868707550
+plant section was shut down,63589868707550
+worklist was created,63589872307550
+worklist was created,63589872307550
+0 transition,63589875907550
+0 transition,63589875907550
+9 transition,63589879507550
+9 transition,63589879507550
+mass retirement,63589883107550
+mass retirement,63589883107550
+helper transition 8[{XOR}->{retirement was posted and checked}],63589886707550
+helper transition 8[{XOR}->{retirement was posted and checked}],63589886707550
+retirement was posted and checked,63589890307550
+retirement was posted and checked,63589890307550
+START EVENT,63590045107550
+START EVENT,63590045107550
+START FUNCTION,63590048707550
+START FUNCTION,63590048707550
+xor/and helper 3,63590052307550
+xor/and helper 3,63590052307550
+start 1 transition,63590055907550
+start 1 transition,63590055907550
+start 2 transition,63590059507550
+start 2 transition,63590059507550
+plant section was sold,63590063107550
+plant section was sold,63590063107550
+fixed assets should be posted jointly,63590066707550
+fixed assets should be posted jointly,63590066707550
+plant section was shut down,63590070307550
+plant section was shut down,63590070307550
+0 transition,63590073907550
+0 transition,63590073907550
+worklist was created,63590077507550
+worklist was created,63590077507550
+9 transition,63590081107550
+9 transition,63590081107550
+mass retirement,63590084707550
+mass retirement,63590084707550
+helper transition 8[{XOR}->{retirement was posted and checked}],63590088307550
+helper transition 8[{XOR}->{retirement was posted and checked}],63590088307550
+retirement was posted and checked,63590091907550
+retirement was posted and checked,63590091907550
+START EVENT,63590196307550
+START EVENT,63590196307550
+START FUNCTION,63590199907550
+START FUNCTION,63590199907550
+xor/and helper 3,63590203507550
+xor/and helper 3,63590203507550
+start 1 transition,63590207107550
+start 1 transition,63590207107550
+start 2 transition,63590210707550
+start 2 transition,63590210707550
+plant section was sold,63590214307550
+plant section was sold,63590214307550
+fixed assets should be posted jointly,63590217907550
+fixed assets should be posted jointly,63590217907550
+worklist was created,63590221507550
+worklist was created,63590221507550
+plant section was shut down,63590225107550
+plant section was shut down,63590225107550
+0 transition,63590228707550
+0 transition,63590228707550
+9 transition,63590232307550
+9 transition,63590232307550
+mass retirement,63590235907550
+mass retirement,63590235907550
+helper transition 8[{XOR}->{retirement was posted and checked}],63590239507550
+helper transition 8[{XOR}->{retirement was posted and checked}],63590239507550
+retirement was posted and checked,63590243107550
+retirement was posted and checked,63590243107550
+START EVENT,63590347507550
+START EVENT,63590347507550
+START FUNCTION,63590351107550
+START FUNCTION,63590351107550
+xor/and helper 3,63590354707550
+xor/and helper 3,63590354707550
+start 1 transition,63590358307550
+start 1 transition,63590358307550
+start 2 transition,63590361907550
+start 2 transition,63590361907550
+fixed assets should be posted jointly,63590365507550
+fixed assets should be posted jointly,63590365507550
+plant section was shut down,63590369107550
+plant section was shut down,63590369107550
+worklist was created,63590372707550
+worklist was created,63590372707550
+plant section was sold,63590376307550
+plant section was sold,63590376307550
+0 transition,63590379907550
+0 transition,63590379907550
+9 transition,63590383507550
+9 transition,63590383507550
+mass retirement,63590387107550
+mass retirement,63590387107550
+helper transition 8[{XOR}->{retirement was posted and checked}],63590390707550
+helper transition 8[{XOR}->{retirement was posted and checked}],63590390707550
+retirement was posted and checked,63590394307550
+retirement was posted and checked,63590394307550
+START EVENT,63590599507550
+START EVENT,63590599507550
+START FUNCTION,63590603107550
+START FUNCTION,63590603107550
+xor/and helper 3,63590606707550
+xor/and helper 3,63590606707550
+start 1 transition,63590610307550
+start 1 transition,63590610307550
+start 2 transition,63590613907550
+start 2 transition,63590613907550
+fixed assets should be posted jointly,63590617507550
+fixed assets should be posted jointly,63590617507550
+plant section was shut down,63590621107550
+plant section was shut down,63590621107550
+plant section was sold,63590624707550
+plant section was sold,63590624707550
+worklist was created,63590628307550
+worklist was created,63590628307550
+0 transition,63590631907550
+0 transition,63590631907550
+9 transition,63590635507550
+9 transition,63590635507550
+mass retirement,63590639107550
+mass retirement,63590639107550
+helper transition 8[{XOR}->{retirement was posted and checked}],63590642707550
+helper transition 8[{XOR}->{retirement was posted and checked}],63590642707550
+retirement was posted and checked,63590646307550
+retirement was posted and checked,63590646307550
+START EVENT,63590801107550
+START EVENT,63590801107550
+START FUNCTION,63590804707550
+START FUNCTION,63590804707550
+xor/and helper 3,63590808307550
+xor/and helper 3,63590808307550
+start 1 transition,63590811907550
+start 1 transition,63590811907550
+start 2 transition,63590815507550
+start 2 transition,63590815507550
+fixed assets should be posted jointly,63590819107550
+fixed assets should be posted jointly,63590819107550
+plant section was shut down,63590822707550
+plant section was shut down,63590822707550
+plant section was sold,63590826307550
+plant section was sold,63590826307550
+0 transition,63590829907550
+0 transition,63590829907550
+worklist was created,63590833507550
+worklist was created,63590833507550
+9 transition,63590837107550
+9 transition,63590837107550
+mass retirement,63590840707550
+mass retirement,63590840707550
+helper transition 8[{XOR}->{retirement was posted and checked}],63590844307550
+helper transition 8[{XOR}->{retirement was posted and checked}],63590844307550
+retirement was posted and checked,63590847907550
+retirement was posted and checked,63590847907550
+START EVENT,63591053107550
+START EVENT,63591053107550
+START FUNCTION,63591056707550
+START FUNCTION,63591056707550
+xor/and helper 3,63591060307550
+xor/and helper 3,63591060307550
+start 1 transition,63591063907550
+start 1 transition,63591063907550
+start 2 transition,63591067507550
+start 2 transition,63591067507550
+fixed assets should be posted jointly,63591071107550
+fixed assets should be posted jointly,63591071107550
+worklist was created,63591074707550
+worklist was created,63591074707550
+plant section was shut down,63591078307550
+plant section was shut down,63591078307550
+plant section was sold,63591081907550
+plant section was sold,63591081907550
+0 transition,63591085507550
+0 transition,63591085507550
+9 transition,63591089107550
+9 transition,63591089107550
+mass retirement,63591092707550
+mass retirement,63591092707550
+helper transition 8[{XOR}->{retirement was posted and checked}],63591096307550
+helper transition 8[{XOR}->{retirement was posted and checked}],63591096307550
+retirement was posted and checked,63591099907550
+retirement was posted and checked,63591099907550
+START EVENT,63591254707550
+START EVENT,63591254707550
+START FUNCTION,63591258307550
+START FUNCTION,63591258307550
+xor/and helper 3,63591261907550
+xor/and helper 3,63591261907550
+start 1 transition,63591265507550
+start 1 transition,63591265507550
+start 2 transition,63591269107550
+start 2 transition,63591269107550
+fixed assets should be posted jointly,63591272707550
+fixed assets should be posted jointly,63591272707550
+worklist was created,63591276307550
+worklist was created,63591276307550
+plant section was sold,63591279907550
+plant section was sold,63591279907550
+plant section was shut down,63591283507550
+plant section was shut down,63591283507550
+0 transition,63591287107550
+0 transition,63591287107550
+9 transition,63591290707550
+9 transition,63591290707550
+mass retirement,63591294307550
+mass retirement,63591294307550
+helper transition 8[{XOR}->{retirement was posted and checked}],63591297907550
+helper transition 8[{XOR}->{retirement was posted and checked}],63591297907550
+retirement was posted and checked,63591301507550
+retirement was posted and checked,63591301507550
+START EVENT,63591506707550
+START EVENT,63591506707550
+START FUNCTION,63591510307550
+START FUNCTION,63591510307550
+xor/and helper 3,63591513907550
+xor/and helper 3,63591513907550
+start 1 transition,63591517507550
+start 1 transition,63591517507550
+start 2 transition,63591521107550
+start 2 transition,63591521107550
+fixed assets should be posted jointly,63591524707550
+fixed assets should be posted jointly,63591524707550
+plant section was sold,63591528307550
+plant section was sold,63591528307550
+plant section was shut down,63591531907550
+plant section was shut down,63591531907550
+worklist was created,63591535507550
+worklist was created,63591535507550
+0 transition,63591539107550
+0 transition,63591539107550
+9 transition,63591542707550
+9 transition,63591542707550
+mass retirement,63591546307550
+mass retirement,63591546307550
+helper transition 8[{XOR}->{retirement was posted and checked}],63591549907550
+helper transition 8[{XOR}->{retirement was posted and checked}],63591549907550
+retirement was posted and checked,63591553507550
+retirement was posted and checked,63591553507550
+START EVENT,63591758707550
+START EVENT,63591758707550
+START FUNCTION,63591762307550
+START FUNCTION,63591762307550
+xor/and helper 3,63591765907550
+xor/and helper 3,63591765907550
+start 1 transition,63591769507550
+start 1 transition,63591769507550
+start 2 transition,63591773107550
+start 2 transition,63591773107550
+fixed assets should be posted jointly,63591776707550
+fixed assets should be posted jointly,63591776707550
+plant section was sold,63591780307550
+plant section was sold,63591780307550
+plant section was shut down,63591783907550
+plant section was shut down,63591783907550
+0 transition,63591787507550
+0 transition,63591787507550
+worklist was created,63591791107550
+worklist was created,63591791107550
+9 transition,63591794707550
+9 transition,63591794707550
+mass retirement,63591798307550
+mass retirement,63591798307550
+helper transition 8[{XOR}->{retirement was posted and checked}],63591801907550
+helper transition 8[{XOR}->{retirement was posted and checked}],63591801907550
+retirement was posted and checked,63591805507550
+retirement was posted and checked,63591805507550
+START EVENT,63591909907550
+START EVENT,63591909907550
+START FUNCTION,63591913507550
+START FUNCTION,63591913507550
+xor/and helper 3,63591917107550
+xor/and helper 3,63591917107550
+start 1 transition,63591920707550
+start 1 transition,63591920707550
+start 2 transition,63591924307550
+start 2 transition,63591924307550
+fixed assets should be posted jointly,63591927907550
+fixed assets should be posted jointly,63591927907550
+plant section was sold,63591931507550
+plant section was sold,63591931507550
+worklist was created,63591935107550
+worklist was created,63591935107550
+plant section was shut down,63591938707550
+plant section was shut down,63591938707550
+0 transition,63591942307550
+0 transition,63591942307550
+9 transition,63591945907550
+9 transition,63591945907550
+mass retirement,63591949507550
+mass retirement,63591949507550
+helper transition 8[{XOR}->{retirement was posted and checked}],63591953107550
+helper transition 8[{XOR}->{retirement was posted and checked}],63591953107550
+retirement was posted and checked,63591956707550
+retirement was posted and checked,63591956707550

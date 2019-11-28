@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<definitions xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" id="definitions_18faca55-d234-4e10-a14d-bd94bf3979c9" targetNamespace="http://plg.processmining.it/" xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL">
+  <process id="try5">
+    <startEvent id="element838" name="Start">
+      <outgoing>element838-element840</outgoing>
+    </startEvent>
+    <endEvent id="element839" name="End">
+      <incoming>element843-element839</incoming>
+    </endEvent>
+    <task id="element840" name="Activity A">
+      <incoming>element838-element840</incoming>
+      <outgoing>element840-element841</outgoing>
+    </task>
+    <parallelGateway id="element841">
+      <incoming>element840-element841</incoming>
+      <outgoing>element841-element844</outgoing>
+      <outgoing>element841-element860</outgoing>
+    </parallelGateway>
+    <parallelGateway id="element842">
+      <incoming>element856-element842</incoming>
+      <incoming>element860-element842</incoming>
+      <outgoing>element842-element843</outgoing>
+    </parallelGateway>
+    <task id="element843" name="Activity B">
+      <incoming>element842-element843</incoming>
+      <outgoing>element843-element839</outgoing>
+    </task>
+    <task id="element844" name="Activity C">
+      <incoming>element841-element844</incoming>
+      <outgoing>element844-element845</outgoing>
+    </task>
+    <exclusiveGateway id="element845">
+      <incoming>element849-element845</incoming>
+      <incoming>element844-element845</incoming>
+      <outgoing>element845-element848</outgoing>
+    </exclusiveGateway>
+    <exclusiveGateway id="element846">
+      <incoming>element848-element846</incoming>
+      <outgoing>element846-element849</outgoing>
+      <outgoing>element846-element847</outgoing>
+    </exclusiveGateway>
+    <task id="element847" name="Activity D">
+      <incoming>element846-element847</incoming>
+      <outgoing>element847-element856</outgoing>
+    </task>
+    <task id="element848" name="Activity E">
+      <incoming>element845-element848</incoming>
+      <outgoing>element848-element846</outgoing>
+    </task>
+    <task id="element849" name="Activity F">
+      <incoming>element846-element849</incoming>
+      <outgoing>element849-element845</outgoing>
+    </task>
+    <task id="element856" name="Activity G">
+      <incoming>element847-element856</incoming>
+      <outgoing>element856-element842</outgoing>
+    </task>
+    <task id="element860" name="Activity H">
+      <incoming>element841-element860</incoming>
+      <outgoing>element860-element842</outgoing>
+    </task>
+    <sequenceFlow id="element845-element848" isImmediate="true" sourceRef="element845" targetRef="element848"/>
+    <sequenceFlow id="element848-element846" isImmediate="true" sourceRef="element848" targetRef="element846"/>
+    <sequenceFlow id="element846-element849" isImmediate="true" sourceRef="element846" targetRef="element849"/>
+    <sequenceFlow id="element849-element845" isImmediate="true" sourceRef="element849" targetRef="element845"/>
+    <sequenceFlow id="element844-element845" isImmediate="true" sourceRef="element844" targetRef="element845"/>
+    <sequenceFlow id="element846-element847" isImmediate="true" sourceRef="element846" targetRef="element847"/>
+    <sequenceFlow id="element847-element856" isImmediate="true" sourceRef="element847" targetRef="element856"/>
+    <sequenceFlow id="element841-element844" isImmediate="true" sourceRef="element841" targetRef="element844"/>
+    <sequenceFlow id="element856-element842" isImmediate="true" sourceRef="element856" targetRef="element842"/>
+    <sequenceFlow id="element841-element860" isImmediate="true" sourceRef="element841" targetRef="element860"/>
+    <sequenceFlow id="element860-element842" isImmediate="true" sourceRef="element860" targetRef="element842"/>
+    <sequenceFlow id="element840-element841" isImmediate="true" sourceRef="element840" targetRef="element841"/>
+    <sequenceFlow id="element842-element843" isImmediate="true" sourceRef="element842" targetRef="element843"/>
+    <sequenceFlow id="element838-element840" isImmediate="true" sourceRef="element838" targetRef="element840"/>
+    <sequenceFlow id="element843-element839" isImmediate="true" sourceRef="element843" targetRef="element839"/>
+  </process>
+  <bpmndi:BPMNDiagram documentation="bpmn diagram element" id="diagram" name="diagram" resolution="120.0">
+    <bpmndi:BPMNPlane bpmnElement="try5" id="plane">
+      <bpmndi:BPMNShape bpmnElement="element838" id="shape838">
+        <dc:Bounds height="20.0" width="20.0" x="4.0" y="40.0"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="element839" id="shape839">
+        <dc:Bounds height="20.0" width="20.0" x="1121.0" y="42.0"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="element840" id="shape840">
+        <dc:Bounds height="30.0" width="70.0" x="79.0" y="45.0"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="element841" id="shape841">
+        <dc:Bounds height="30.0" width="30.0" x="199.0" y="45.0"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="element842" id="shape842">
+        <dc:Bounds height="30.0" width="30.0" x="919.0" y="49.0"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="element843" id="shape843">
+        <dc:Bounds height="30.0" width="70.0" x="999.0" y="47.0"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="element844" id="shape844">
+        <dc:Bounds height="30.0" width="70.0" x="279.0" y="15.0"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="element845" id="shape845">
+        <dc:Bounds height="30.0" width="30.0" x="399.0" y="30.0"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="element846" id="shape846">
+        <dc:Bounds height="30.0" width="30.0" x="599.0" y="15.0"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="element847" id="shape847">
+        <dc:Bounds height="30.0" width="70.0" x="679.0" y="0.0"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="element848" id="shape848">
+        <dc:Bounds height="30.0" width="70.0" x="479.0" y="15.0"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="element849" id="shape849">
+        <dc:Bounds height="30.0" width="70.0" x="679.0" y="60.0"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="element856" id="shape856">
+        <dc:Bounds height="30.0" width="70.0" x="799.0" y="24.0"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="element860" id="shape860">
+        <dc:Bounds height="30.0" width="70.0" x="279.0" y="75.0"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge bpmnElement="element845-element848" id="flowEdgeelement845-element848">
+        <di:waypoint x="429.0" y="40.0"/>
+        <di:waypoint x="441.0" y="40.0"/>
+        <di:waypoint x="467.0" y="30.0"/>
+        <di:waypoint x="479.0" y="30.0"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="element848-element846" id="flowEdgeelement848-element846">
+        <di:waypoint x="549.0" y="30.0"/>
+        <di:waypoint x="561.0" y="30.0"/>
+        <di:waypoint x="587.0" y="30.0"/>
+        <di:waypoint x="599.0" y="30.0"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="element846-element849" id="flowEdgeelement846-element849">
+        <di:waypoint x="629.0" y="35.0"/>
+        <di:waypoint x="641.0" y="35.0"/>
+        <di:waypoint x="667.0" y="70.0"/>
+        <di:waypoint x="679.0" y="70.0"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="element849-element845" id="flowEdgeelement849-element845">
+        <di:waypoint x="679.0" y="80.0"/>
+        <di:waypoint x="667.0" y="80.0"/>
+        <di:waypoint x="654.0" y="75.0"/>
+        <di:waypoint x="574.0" y="75.0"/>
+        <di:waypoint x="574.0" y="75.0"/>
+        <di:waypoint x="454.0" y="75.0"/>
+        <di:waypoint x="441.0" y="50.0"/>
+        <di:waypoint x="429.0" y="50.0"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="element844-element845" id="flowEdgeelement844-element845">
+        <di:waypoint x="349.0" y="30.0"/>
+        <di:waypoint x="361.0" y="30.0"/>
+        <di:waypoint x="387.0" y="45.0"/>
+        <di:waypoint x="399.0" y="45.0"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="element846-element847" id="flowEdgeelement846-element847">
+        <di:waypoint x="629.0" y="25.0"/>
+        <di:waypoint x="641.0" y="25.0"/>
+        <di:waypoint x="667.0" y="15.0"/>
+        <di:waypoint x="679.0" y="15.0"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="element847-element856" id="flowEdgeelement847-element856">
+        <di:waypoint x="749.0" y="15.0"/>
+        <di:waypoint x="761.0" y="15.0"/>
+        <di:waypoint x="787.0" y="39.0"/>
+        <di:waypoint x="799.0" y="39.0"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="element841-element844" id="flowEdgeelement841-element844">
+        <di:waypoint x="229.0" y="55.0"/>
+        <di:waypoint x="241.0" y="55.0"/>
+        <di:waypoint x="267.0" y="30.0"/>
+        <di:waypoint x="279.0" y="30.0"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="element856-element842" id="flowEdgeelement856-element842">
+        <di:waypoint x="869.0" y="39.0"/>
+        <di:waypoint x="881.0" y="39.0"/>
+        <di:waypoint x="907.0" y="59.0"/>
+        <di:waypoint x="919.0" y="59.0"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="element841-element860" id="flowEdgeelement841-element860">
+        <di:waypoint x="229.0" y="65.0"/>
+        <di:waypoint x="241.0" y="65.0"/>
+        <di:waypoint x="267.0" y="90.0"/>
+        <di:waypoint x="279.0" y="90.0"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="element860-element842" id="flowEdgeelement860-element842">
+        <di:waypoint x="349.0" y="90.0"/>
+        <di:waypoint x="361.0" y="90.0"/>
+        <di:waypoint x="374.0" y="120.0"/>
+        <di:waypoint x="454.0" y="120.0"/>
+        <di:waypoint x="454.0" y="120.0"/>
+        <di:waypoint x="574.0" y="120.0"/>
+        <di:waypoint x="574.0" y="120.0"/>
+        <di:waypoint x="654.0" y="120.0"/>
+        <di:waypoint x="654.0" y="120.0"/>
+        <di:waypoint x="774.0" y="120.0"/>
+        <di:waypoint x="774.0" y="120.0"/>
+        <di:waypoint x="894.0" y="120.0"/>
+        <di:waypoint x="907.0" y="69.0"/>
+        <di:waypoint x="919.0" y="69.0"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="element840-element841" id="flowEdgeelement840-element841">
+        <di:waypoint x="149.0" y="60.0"/>
+        <di:waypoint x="161.0" y="60.0"/>
+        <di:waypoint x="187.0" y="60.0"/>
+        <di:waypoint x="199.0" y="60.0"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="element842-element843" id="flowEdgeelement842-element843">
+        <di:waypoint x="949.0" y="64.0"/>
+        <di:waypoint x="961.0" y="64.0"/>
+        <di:waypoint x="987.0" y="62.0"/>
+        <di:waypoint x="999.0" y="62.0"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="element838-element840" id="flowEdgeelement838-element840">
+        <di:waypoint x="25.0" y="60.0"/>
+        <di:waypoint x="41.0" y="60.0"/>
+        <di:waypoint x="67.0" y="60.0"/>
+        <di:waypoint x="79.0" y="60.0"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="element843-element839" id="flowEdgeelement843-element839">
+        <di:waypoint x="1069.0" y="62.0"/>
+        <di:waypoint x="1081.0" y="62.0"/>
+        <di:waypoint x="1107.0" y="62.0"/>
+        <di:waypoint x="1121.0" y="62.0"/>
+      </bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</definitions>

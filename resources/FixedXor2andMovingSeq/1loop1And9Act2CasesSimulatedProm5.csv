@@ -1,0 +1,17 @@
+case,event,startTime,
+0,Activity A,6/27/2018 18:38,2
+1,Activity A,6/27/2018 18:39,1
+0,Activity H,6/27/2018 18:40,2
+1,Activity H,6/27/2018 18:41,1
+0,Activity C,6/27/2018 18:41,2
+1,Activity C,6/27/2018 18:42,1
+0,Activity E,6/27/2018 18:42,1
+1,Activity E,6/27/2018 18:43,2
+0,Activity F,6/27/2018 18:43,1
+1,Activity D,6/27/2018 18:44,2
+0,Activity E,6/27/2018 18:44,1
+1,Activity G,6/27/2018 18:45,2
+0,Activity D,6/27/2018 18:45,1
+0,Activity G,6/27/2018 18:46,1
+1,Activity B,6/27/2018 18:47,2
+0,Activity B,6/27/2018 18:48,1

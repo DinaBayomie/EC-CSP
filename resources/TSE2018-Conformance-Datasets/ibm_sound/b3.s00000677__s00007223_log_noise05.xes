@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- This file has been generated with the OpenXES library. It conforms -->
+<!-- to the XML serialization of the XES standard for log storage and -->
+<!-- management. -->
+<!-- XES standard version: 1.0 -->
+<!-- OpenXES library version: 1.0RC7 -->
+<!-- OpenXES is available from http://www.openxes.org/ -->
+<log xes.version="1.0" xes.features="nested-attributes" openxes.version="1.0RC7" xmlns="http://www.xes-standard.org/">
+	<trace>
+		<string key="concept:name" value="trace_57"/>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="process.s00000677##s00007223.inputCriterion.s00001053"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-02-18T09:29:58.346+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="callToTask.s00007111.inputCriterion.s00001053"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-02-18T10:29:58.346+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="callToTask.s00001778.inputCriterion.s00001053"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-02-18T11:29:58.346+10:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="callToTask.s00001778.inputCriterion.s00001053"/>
+			<boolean key="noise" value="true"/>
+			<string key="lifecycle:transition" value="complete"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="callToTask.s00007111.outputCriterion.s00001055"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-02-18T12:29:58.346+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="callToTask.s00001778.outputCriterion.s00001055"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-02-18T13:29:58.346+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="callToProcess.s00001419.inputCriterion.s00001053"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-02-18T14:29:58.346+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="callToProcess.s00001419.outputCriterion.s00001055"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-02-18T15:29:58.346+10:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="trace_0"/>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="process.s00000677##s00007223.inputCriterion.s00001053"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-02-01T18:29:58.346+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="callToTask.s00001778.inputCriterion.s00001053"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-02-01T19:29:58.346+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="callToTask.s00001778.outputCriterion.s00001055"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-02-01T20:29:58.346+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="callToTask.s00007111.inputCriterion.s00001053"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-02-01T21:29:58.346+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="callToTask.s00007111.outputCriterion.s00001055"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-02-01T22:29:58.346+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="callToProcess.s00001419.inputCriterion.s00001053"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-02-01T23:29:58.346+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="callToProcess.s00001419.outputCriterion.s00001055"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-02-02T00:29:58.346+10:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="trace_31"/>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="process.s00000677##s00007223.inputCriterion.s00001053"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-02-10T19:29:58.346+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="callToTask.s00001778.inputCriterion.s00001053"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-02-10T20:29:58.346+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="callToTask.s00007111.inputCriterion.s00001053"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-02-10T21:29:58.346+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="callToTask.s00007111.outputCriterion.s00001055"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-02-10T22:29:58.346+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="callToTask.s00001778.outputCriterion.s00001055"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-02-10T23:29:58.346+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="callToProcess.s00001419.inputCriterion.s00001053"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-02-11T00:29:58.346+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="callToProcess.s00001419.outputCriterion.s00001055"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-02-11T01:29:58.346+10:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="trace_43"/>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="process.s00000677##s00007223.inputCriterion.s00001053"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-02-14T07:29:58.346+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="callToTask.s00007111.inputCriterion.s00001053"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-02-14T08:29:58.346+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="callToTask.s00001778.inputCriterion.s00001053"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-02-14T09:29:58.346+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="callToTask.s00001778.outputCriterion.s00001055"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-02-14T10:29:58.346+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="callToTask.s00007111.outputCriterion.s00001055"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-02-14T11:29:58.346+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="callToProcess.s00001419.inputCriterion.s00001053"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-02-14T12:29:58.346+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="callToProcess.s00001419.outputCriterion.s00001055"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-02-14T13:29:58.346+10:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="trace_70"/>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="process.s00000677##s00007223.inputCriterion.s00001053"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-02-22T04:29:58.346+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="callToTask.s00007111.inputCriterion.s00001053"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-02-22T05:29:58.346+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="callToTask.s00007111.outputCriterion.s00001055"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-02-22T06:29:58.346+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="callToTask.s00001778.inputCriterion.s00001053"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-02-22T07:29:58.346+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="callToTask.s00001778.outputCriterion.s00001055"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-02-22T08:29:58.346+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="callToProcess.s00001419.inputCriterion.s00001053"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-02-22T09:29:58.346+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="callToProcess.s00001419.outputCriterion.s00001055"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-02-22T10:29:58.346+10:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="trace_16"/>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="process.s00000677##s00007223.inputCriterion.s00001053"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-02-06T10:29:58.346+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="callToTask.s00001778.inputCriterion.s00001053"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-02-06T11:29:58.346+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="callToTask.s00007111.inputCriterion.s00001053"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-02-06T12:29:58.346+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="callToTask.s00001778.outputCriterion.s00001055"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-02-06T13:29:58.346+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="callToTask.s00007111.outputCriterion.s00001055"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-02-06T14:29:58.346+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="callToProcess.s00001419.inputCriterion.s00001053"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-02-06T15:29:58.346+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="callToProcess.s00001419.outputCriterion.s00001055"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-02-06T16:29:58.346+10:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="trace_57"/>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="process.s00000677##s00007223.inputCriterion.s00001053"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-02-18T09:29:58.346+10:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="callToProcess.s00001419.outputCriterion.s00001055"/>
+			<boolean key="noise" value="true"/>
+			<string key="lifecycle:transition" value="complete"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="callToTask.s00007111.inputCriterion.s00001053"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-02-18T10:29:58.346+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="callToTask.s00001778.inputCriterion.s00001053"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-02-18T11:29:58.346+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="callToTask.s00007111.outputCriterion.s00001055"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-02-18T12:29:58.346+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="callToTask.s00001778.outputCriterion.s00001055"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-02-18T13:29:58.346+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="callToProcess.s00001419.inputCriterion.s00001053"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-02-18T14:29:58.346+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="callToProcess.s00001419.outputCriterion.s00001055"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-02-18T15:29:58.346+10:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="trace_0"/>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="process.s00000677##s00007223.inputCriterion.s00001053"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-02-01T18:29:58.346+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="callToTask.s00001778.inputCriterion.s00001053"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-02-01T19:29:58.346+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="callToTask.s00001778.outputCriterion.s00001055"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-02-01T20:29:58.346+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="callToTask.s00007111.inputCriterion.s00001053"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-02-01T21:29:58.346+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="callToTask.s00007111.outputCriterion.s00001055"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-02-01T22:29:58.346+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="callToProcess.s00001419.inputCriterion.s00001053"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-02-01T23:29:58.346+10:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="trace_31"/>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="process.s00000677##s00007223.inputCriterion.s00001053"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-02-10T19:29:58.346+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="callToTask.s00001778.inputCriterion.s00001053"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-02-10T20:29:58.346+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="callToTask.s00007111.inputCriterion.s00001053"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-02-10T21:29:58.346+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="callToTask.s00007111.outputCriterion.s00001055"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-02-10T22:29:58.346+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="callToTask.s00001778.outputCriterion.s00001055"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-02-10T23:29:58.346+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="callToProcess.s00001419.inputCriterion.s00001053"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-02-11T00:29:58.346+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="callToProcess.s00001419.outputCriterion.s00001055"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-02-11T01:29:58.346+10:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="trace_43"/>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="process.s00000677##s00007223.inputCriterion.s00001053"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-02-14T07:29:58.346+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="callToTask.s00007111.inputCriterion.s00001053"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-02-14T08:29:58.346+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="callToTask.s00001778.inputCriterion.s00001053"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-02-14T09:29:58.346+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="callToTask.s00001778.outputCriterion.s00001055"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-02-14T10:29:58.346+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="callToTask.s00007111.outputCriterion.s00001055"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-02-14T11:29:58.346+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="callToProcess.s00001419.inputCriterion.s00001053"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-02-14T12:29:58.346+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="callToProcess.s00001419.outputCriterion.s00001055"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-02-14T13:29:58.346+10:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="trace_70"/>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="process.s00000677##s00007223.inputCriterion.s00001053"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-02-22T04:29:58.346+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="callToTask.s00007111.inputCriterion.s00001053"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-02-22T05:29:58.346+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="callToTask.s00001778.inputCriterion.s00001053"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-02-22T07:29:58.346+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="callToTask.s00001778.outputCriterion.s00001055"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-02-22T08:29:58.346+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="callToProcess.s00001419.inputCriterion.s00001053"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-02-22T09:29:58.346+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="callToProcess.s00001419.outputCriterion.s00001055"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-02-22T10:29:58.346+10:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="trace_16"/>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="process.s00000677##s00007223.inputCriterion.s00001053"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-02-06T10:29:58.346+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="callToTask.s00001778.inputCriterion.s00001053"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-02-06T11:29:58.346+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="callToTask.s00007111.inputCriterion.s00001053"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-02-06T12:29:58.346+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="callToTask.s00001778.outputCriterion.s00001055"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-02-06T13:29:58.346+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="callToTask.s00007111.outputCriterion.s00001055"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-02-06T14:29:58.346+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="callToProcess.s00001419.inputCriterion.s00001053"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-02-06T15:29:58.346+10:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="NONE"/>
+			<string key="concept:name" value="callToProcess.s00001419.outputCriterion.s00001055"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2016-02-06T16:29:58.346+10:00"/>
+		</event>
+	</trace>
+</log>
