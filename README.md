@@ -1,6 +1,6 @@
-# Event correlation framework (ECFLex)
+# Event correlation framework (EC-CSP)
 Source code associate the paper
-#### ECFlex : Flexible and Efficient Event Correlationfor Process Mining
+#### Event Correlationfor Process Mining as a Constraint Satisfaction Problem
 by: Dina Bayomie, Ahmed Awad, Marlon Dumas, and Jan Mendling
 
 The required parameters are:
